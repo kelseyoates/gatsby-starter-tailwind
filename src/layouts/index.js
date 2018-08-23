@@ -9,14 +9,14 @@ import "./index.css";
 const TemplateWrapper = ({ children }) => (
   <div className="flex flex-col font-sans min-h-screen text-grey-darkest">
     <Helmet
-      title="Gatsby Starter Tailwind"
+      title="K/O - UX Designer and Writer"
       meta={[
-        { name: "description", content: "Sample" },
-        { name: "keywords", content: "sample, something" }
+        { name: "description", content: "UX designer from Boston, MA, communications for small businesses, one-on-one technology and computer help for senior citizens" },
+        { name: "keywords", content: "UX, user experience, communications, design, Canton, Sharon, Stoughton, Norwood, senior citizens, computer help, special needs" }
       ]}
     />
     <Header />
-    <div className="flex flex-col flex-1 md:justify-center max-w-xl mx-auto px-4 py-8 md:p-8 w-full">
+    <div className="flex flex-col flex-1 md:justify-center mx-auto w-full">
       {children()}
     </div>
     <Footer />
