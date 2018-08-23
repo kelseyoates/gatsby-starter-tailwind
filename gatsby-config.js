@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Starter Tailwind',
+    title: 'Kelsey Oates | UX Designer and Writer',
   },
   plugins: ['gatsby-plugin-react-helmet'],
 };
