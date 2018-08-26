@@ -48,18 +48,18 @@ export default class Contact extends React.Component {
 
 
   <div>
-    <div className="flex flex-col pl-5 mt-5"> 
+    <div className="flex flex-col px-1 pt-5"> 
     <h2 className="text-center hand purple">Let's talk!</h2>
     <p className="leading-loose text-center">
     The best way to get a hold of me is by filling out the contact form below 👇
     </p>
 </div>
-<div className="flex flex-col md:flex-row pl-5 mt-4"> 
+<div className="flex flex-col md:flex-row px-1 pt-5"> 
 
 
         <form
           name="contactAlt"
-          className="mx-auto md:w-1/2"
+          className="mx-auto md:w-1/2 sm:w-2/3 xsm:w-1/1"
           method="post"
           action="/thanks/"
           data-netlify="true"
@@ -118,7 +118,7 @@ export default class Contact extends React.Component {
 </div>
 
 
-    <div className="flex flex-col pl-5 mt-5"> 
+    <div className="flex flex-col px-1 pt-5"> 
 <h2 className="text-center hand ">Ready to schedule something?</h2>
 
 <p className="leading-loose mb-8 text-center">
@@ -130,10 +130,10 @@ If you're a previous client and you're ready to book a time with me, select what
 
 
 
-<div className="mt-5 flex flex-wrap">
+<div className="px-1 pt-5 flex flex-wrap">
 
-<div className="sm:w-1/2 md:w-1/2 lg:w-1/4">
-   <div className="contact bg-1">
+<div className="xsm:w-1/1 sm:w-1/2 md:w-1/2 lg:w-1/4">
+   <div className="card bg-1">
    <img src={one}/>
      <h3>One-on-One (1hr)</h3>
      <p>We'll meet at the location of your choice.</p>
@@ -143,8 +143,8 @@ If you're a previous client and you're ready to book a time with me, select what
    </div>
  </div>
 
-  <div className="sm:w-1/2 md:w-1/2 lg:w-1/4">
-   <div className="contact bg-1">
+  <div className="xsm:w-1/1 sm:w-1/2 md:w-1/2 lg:w-1/4">
+   <div className="card bg-1">
    <img src={two} />
  <h3>One-on-One (2hrs)</h3>
  <p>We'll meet at the location of your choice.</p>
@@ -153,8 +153,8 @@ If you're a previous client and you're ready to book a time with me, select what
    </div>
  </div>
 
- <div className="sm:w-1/2 md:w-1/2 lg:w-1/4">
-   <div className="contact bg-1">
+ <div className="xsm:w-1/1 sm:w-1/2 md:w-1/2 lg:w-1/4">
+   <div className="card bg-1">
    <img src={phone} />
  <h3>Phone Call</h3>
  <p>I'll call you.</p>
@@ -166,8 +166,8 @@ If you're a previous client and you're ready to book a time with me, select what
 
 
 
- <div className="sm:w-1/2 md:w-1/2 lg:w-1/4">
-   <div className="contact bg-1">
+ <div className="xsm:w-1/1 sm:w-1/2 md:w-1/2 lg:w-1/4">
+   <div className="card bg-1">
    <img src={video} />
  <h3>Video Chat</h3>
  <p>I use Google Hangouts and Skype.</p>

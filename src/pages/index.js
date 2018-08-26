@@ -24,16 +24,16 @@ import GatsbyLink from "gatsby-link";
 const IndexPage = () => (
   <div>
 
-       <div className="flex flex-col md:flex-row pl-5 py-8"> 
-    <h1 className="hand purple">
-      Hi, I'm Kelsey Oates. 
-    </h1>
+      <div className="flex flex-wrap px-1 pt-5"> 
+       <div className="md:w-2/3 mx-auto">
+        <h1 className="hand purple">
+          Hi, I'm Kelsey Oates. 
+        </h1>
+        <h4>
+        I like to design things and to help people.
+        </h4>
+        <h4>I also like dogs, writing, and using emoji as punctuation 👍</h4>
     </div>
-    <div className="flex flex-col pl-5"> 
-    <h4>
-    I like to design things and to help people.
-    </h4>
-    <h4>I also like dogs, writing, and using emoji as punctuation 👍</h4>
 </div>
     
     <img src={devices} className="block mx-auto w-1" />
@@ -44,7 +44,7 @@ const IndexPage = () => (
     <hr className="text-left"/>
 
 <div className=" flex flex-wrap">
-  <div className="sm:w-1/2 md:w-1/2 lg:w-1/4">
+  <div className="xsm:w-1/1 sm:w-1/2 md:w-1/3 lg:w-1/3 xlg:w-1/4 ">
     <div className="portfolio text-center bg-1">
       <img src={seniors}/>
       <h3>Tech Help for Seniors</h3>
@@ -55,7 +55,7 @@ const IndexPage = () => (
     </div>
   </div>
 
-  <div className="sm:w-1/2 md:w-1/2 lg:w-1/4">
+  <div className="xsm:w-1/1 sm:w-1/2 md:w-1/3 lg:w-1/3 xlg:w-1/4 ">
     <div className="portfolio text-center bg-1">
       <img src={map} />
       <h3>Medication Administration Program</h3>
@@ -66,7 +66,7 @@ const IndexPage = () => (
     </div>
   </div>
 
-  <div className="sm:w-1/2 md:w-1/2 lg:w-1/4">
+  <div className="xsm:w-1/1 sm:w-1/2 md:w-1/3 lg:w-1/3 xlg:w-1/4 ">
     <div className="portfolio text-center bg-1">
       <img src={bso} />
       <h3>Boston Symphony Orchestra</h3>
@@ -77,7 +77,7 @@ const IndexPage = () => (
     </div>
   </div>
 
-  <div className="sm:w-1/2 md:w-1/2 lg:w-1/4">
+  <div className="xsm:w-1/1 sm:w-1/2 md:w-1/3 lg:w-1/3 xlg:w-1/4 ">
     <div className="portfolio text-center bg-1">
       <img src={homee} />
       <h3>Homee + Insurance</h3>
@@ -90,7 +90,7 @@ const IndexPage = () => (
 
 
 
-<div className="sm:w-1/2 md:w-1/2 lg:w-1/4">
+<div className="xsm:w-1/1 sm:w-1/2 md:w-1/3 lg:w-1/3 xlg:w-1/4 ">
     <div className="portfolio text-center bg-1">
     <img src={sslc}/>
       <h3>South Shore Laboratory Consultants</h3>
@@ -102,7 +102,7 @@ const IndexPage = () => (
     </div>
   </div>
 
-  <div className="sm:w-1/2 md:w-1/2 lg:w-1/4">
+  <div className="xsm:w-1/1 sm:w-1/2 md:w-1/3 lg:w-1/3 xlg:w-1/4 ">
     <div className="portfolio text-center bg-1">
     <img src={hiding} />
       <h3>Hiding in Plain Sight</h3>
@@ -113,7 +113,7 @@ const IndexPage = () => (
     </div>
   </div>
 
-  <div className="sm:w-1/2 md:w-1/2 lg:w-1/4">
+  <div className="xsm:w-1/1 sm:w-1/2 md:w-1/3 lg:w-1/3 xlg:w-1/4 ">
     <div className="portfolio text-center bg-1">
       <img src={sarah}/>
       <h3>Sarah Sun & The Contest</h3>
@@ -125,7 +125,7 @@ const IndexPage = () => (
   </div>
 
 
-  <div className="sm:w-1/2 md:w-1/2 lg:w-1/4">
+  <div className="xsm:w-1/1 sm:w-1/2 md:w-1/3 lg:w-1/3 xlg:w-1/4 ">
     <div className="portfolio text-center bg-1">
       <img src={scratch} />
       <h3>Scratch Theater</h3>
@@ -138,7 +138,7 @@ const IndexPage = () => (
 
 
 
-  <div className="sm:w-1/2 md:w-1/2 lg:w-1/4">
+  <div className="xsm:w-1/1 sm:w-1/2 md:w-1/3 lg:w-1/3 xlg:w-1/4 ">
     <div className="portfolio text-center bg-1">
       <img src={monthly}/>
       <h3>AANE Monthly - May '17</h3>
@@ -149,7 +149,7 @@ const IndexPage = () => (
     </div>
   </div>
 
-  <div className="sm:w-1/2 md:w-1/2 lg:w-1/4">
+  <div className="xsm:w-1/1 sm:w-1/2 md:w-1/3 lg:w-1/3 xlg:w-1/4 ">
     <div className="portfolio text-center bg-1">
     <img src={plank} />
       <h3>Plank for Autism</h3>
@@ -160,7 +160,7 @@ const IndexPage = () => (
     </div>
   </div>
 
-  <div className="sm:w-1/2 md:w-1/2 lg:w-1/4">
+  <div className="xsm:w-1/1 sm:w-1/2 md:w-1/3 lg:w-1/3 xlg:w-1/4 ">
     <div className="portfolio text-center bg-1">
       <img src={livingstone} />
       <h3>The Livingstone Company</h3>
@@ -169,7 +169,7 @@ const IndexPage = () => (
     </div>
   </div>
 
-  <div className="sm:w-1/2 md:w-1/2 lg:w-1/4">
+  <div className="xsm:w-1/1 sm:w-1/2 md:w-1/3 lg:w-1/3 xlg:w-1/4 ">
     <div className="portfolio text-center bg-1">
       <img src={level} />
       <h3>Level Up Donations</h3>
