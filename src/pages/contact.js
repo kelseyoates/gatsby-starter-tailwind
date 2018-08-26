@@ -1,9 +1,11 @@
 import React from "react";
 import Link from "gatsby-link";
-import phone from "../images/phone-receiver.png";
-import tech from "../images/laptop.png";
+import phone from "../images/on-the-phone.png";
+import tech from "../images/one-on-one.png";
 import video from "../images/video-chat.png";
-import coffee from "../images/coffee.png";
+import one from "../images/one-hour.png";
+import two from "../images/two-hours.png";
+
 
 const ContactPage = () => (
 
@@ -70,42 +72,55 @@ If you're a previous client and you're ready to book a time with me, select what
 </div>
 
 
-<div className="flex flex-col md:flex-row "> 
 
+<div className="mt-5 flex flex-wrap">
 
-    <card className="w-1/4 md:w-1/3 about">
-    <a href="https://calendly.com/kelseyoates/phonecall" target="blank" className="text-center no-underline">
-  <img src={phone} className="small"/>
-  <h3>Schedule a Phone Call</h3>
-  </a>
-</card>
+ <div className="sm:w-1/2 md:w-1/2 lg:w-1/4">
+    <div className="contact bg-1">
+    <img src={one}/>
+      <h3>One-on-One (1hr)</h3>
+      <p>We'll meet at the location of your choice.</p>
+      <a href="https://calendly.com/kelseyoates/one-on-one" target="blank" className="text-center no-underline">
+            <button className="border-grey-darker hover:border-grey-dark bg-dark-purple hover:bg-pink font-bold px-6 py-3 rounded text-sm text-white">View schedule</button></a>
+  
+    </div>
+  </div>
 
+   <div className="sm:w-1/2 md:w-1/2 lg:w-1/4">
+    <div className="contact bg-1">
+    <img src={two} />
+  <h3>One-on-One (2hrs)</h3>
+  <p>We'll meet at the location of your choice.</p>
+    <a href="https://calendly.com/kelseyoates/one-on-one-2-hrs" target="blank" className="text-center no-underline">
+            <button className="border-grey-darker hover:border-grey-dark bg-dark-purple hover:bg-pink font-bold px-6 py-3 rounded text-sm text-white">View schedule</button></a>
+    </div>
+  </div>
 
-   <card className="w-1/4 md:w-1/3 about">
-   <a href="https://calendly.com/kelseyoates/tech-help" target="blank" className="text-center no-underline">
-  <img src={tech} className="small"/>
-  <h3 className="no-underline">Tech Help One-on-One</h3>
-  </a>
-</card>
+  <div className="sm:w-1/2 md:w-1/2 lg:w-1/4">
+    <div className="contact bg-1">
+    <img src={phone} />
+  <h3>Phone Call</h3>
+  <p>I'll call you.</p>
 
-   <card className="w-1/4 md:w-1/3 about">
-   <a href="https://calendly.com/kelseyoates/video-call" target="blank" className="text-center no-underline">
+    <a href="https://calendly.com/kelseyoates/phone-call" target="blank" className="text-center no-underline">
+            <button className="border-grey-darker hover:border-grey-dark bg-dark-purple hover:bg-pink font-bold px-6 py-3 rounded text-sm text-white">View schedule</button></a>
+    </div>
+  </div>
 
-  <img src={video} className="small"/>
+ 
+
+  <div className="sm:w-1/2 md:w-1/2 lg:w-1/4">
+    <div className="contact bg-1">
+    <img src={video} />
   <h3>Video Chat</h3>
-</a>
-</card>
+  <p>I use Google Hangouts and Skype.</p>
+  <a href="https://calendly.com/kelseyoates/video-chat" target="blank" className="text-center no-underline">
+            <button className="border-grey-darker hover:border-grey-dark bg-dark-purple hover:bg-pink font-bold px-6 py-3 rounded text-sm text-white">View schedule</button></a>
+    </div>
+  </div>
 
-   <card className="w-1/4 md:w-1/3 about">
-   <a href="https://calendly.com/kelseyoates/meet-at-rutas" target="blank" className="text-center no-underline">
-  <img src={coffee} className="small"/>
-  <h3>Meet at Ruta's</h3>
-</a>
+  </div>
 
-</card>
-
-
-</div>
 
 
 
