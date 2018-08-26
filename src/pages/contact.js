@@ -17,7 +17,7 @@ const ContactPage = () => (
     </p>
 </div>
 <div className="flex flex-col md:flex-row pl-5 mt-4"> 
-  <form className="mx-auto md:w-1/2">
+  <form className="mx-auto md:w-1/2 netlify">
   
 
     <label
