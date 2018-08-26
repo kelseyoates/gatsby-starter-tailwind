@@ -16,9 +16,16 @@ const ContactPage = () => (
     The best way to get a hold of me is by filling out the contact form below 👇
     </p>
 </div>
+
 <div className="flex flex-col md:flex-row pl-5 mt-4"> 
-  <form className="mx-auto md:w-1/2" name="newContact" method="POST" netlify>
-  
+  {/* <form className="mx-auto md:w-1/2"> */}
+  <form
+          className="mx-auto md:w-1/2"
+          name="contactContact"
+          method="post"
+          action="/thanks"
+          netlify
+        >
 
     <label
       className="block font-bold mb-2 text-xs uppercase"
