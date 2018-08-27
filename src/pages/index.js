@@ -2,13 +2,10 @@ import React from "react";
 import Link from "gatsby-link";
 import devices from "../images/devices.png";
 
-import seniors from "../images/tech-help.png";
-
-
-import Design from "../components/design/index.js";
-import Seniors from "../components/seniors/index.js";
-import Communications from "../components/communications/index.js";
-import SpecialNeeds from "../components/special-needs/index.js";
+import Design from "../components/Design/index.js";
+import Seniors from "../components/Seniors/index.js";
+import Communications from "../components/Communications/index.js";
+import SpecialNeeds from "../components/Special-Needs/index.js";
 
 
 
