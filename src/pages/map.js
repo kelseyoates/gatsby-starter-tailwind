@@ -15,7 +15,7 @@ import mapgif from "../images/map.gif";
 
 const MAPPage = () => (
   <div>
-  <div className="flex flex-col md:flex-row items-center bg-map pl-5"> 
+  <div className="flex flex-col md:flex-row items-center bg-map px-1 pt-5"> 
 
   <div className="w-2/3 md:w-2/3">
     <h1 className="inline-block">
@@ -35,7 +35,7 @@ const MAPPage = () => (
 </div>
 
 
-<div className="flex flex-col md:flex-row px-8"> 
+<div className="flex flex-col md:flex-row px-1 pt-5"> 
 
    <card className="w-1/3 md:w-1/3">
     <h3 className="inline-block">
@@ -69,7 +69,7 @@ const MAPPage = () => (
 
 
 
-<div className="flex flex-col md:flex-row items-top px-8"> 
+<div className="flex flex-col md:flex-row items-top px-1 pt-5"> 
     <card className="w-1/3 md:w-1/3">
     <h3 className="inline-block">
       1 -  Research
@@ -117,7 +117,7 @@ const MAPPage = () => (
 
 
 
-<div className="flex flex-col md:flex-row items-top px-8"> 
+<div className="flex flex-col md:flex-row items-top px-1 pt-5"> 
     <card className="w-1/3 md:w-1/3">
     <h3 className="inline-block">
       2 - Sketching
@@ -181,7 +181,7 @@ const MAPPage = () => (
 
 
 
-<div className="flex flex-col md:flex-row items-top px-8"> 
+<div className="flex flex-col md:flex-row items-top px-1 pt-5"> 
     <card className="w-1/3 md:w-1/3">
     <h3 className="inline-block">
       3 - The Prototype
@@ -201,7 +201,7 @@ const MAPPage = () => (
 
 
 
-<div className="flex flex-col md:flex-row items-top px-8"> 
+<div className="flex flex-col md:flex-row items-top px-1 pt-5"> 
     <card className="w-1/3 md:w-1/3">
     <h3 className="inline-block">
       4 - Next Steps

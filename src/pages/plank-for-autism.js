@@ -4,6 +4,8 @@ import Link from "gatsby-link";
 import plank from "../images/plank.png";
 import plankCover from "../images/plank-cover.png";
 
+
+
 const PlankForAutismPage = () => (
   <div>
 
@@ -65,6 +67,8 @@ const PlankForAutismPage = () => (
    <h3>Plank for Autism - Infographic</h3>
 
     <img src={plank} className="shadow"/>
+
+
 
 </card>
 </div>
