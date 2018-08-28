@@ -53,6 +53,29 @@ const Header = () => {
               About
             </Link>
 
+             <Link
+              to="/seniors"
+              className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline purple"
+            >
+              Seniors
+            </Link>
+
+            <Link
+              to="/design"
+              className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline purple"
+            >
+              Design
+            </Link>
+
+
+            <Link
+              to="/special-needs"
+              className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline purple"
+            >
+              Special Needs
+            </Link>
+
+
             <Link
               to="/contact"
               className="block md:inline-block mt-4 md:mt-0 no-underline purple"
