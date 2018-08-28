@@ -9,31 +9,32 @@ const BabesPage = () => (
 
 
 <div className="flex flex-wrap bg-6 items-center text-center">
-  <div className="sm:w-1/1 md:w-1/2">
-    <h1 className="inline-block">
-      Babes on Farms
-    </h1>
-    <p>
-    Read online for free or purchase to download.
-    </p>
 
-</div>
 
  <div className="sm:w-1/1 md:w-1/2">
   <img src={babes} className="plays"/>
 </div>
 
 
+  <div className="sm:w-1/1 md:w-1/2">
+    <h1 className="text-white">
+      Babes on Farms
+    </h1>
+    <p className="text-white">
+    Read online for free or purchase to download.
+    </p>
+
+</div>
+
+
 </div>
 
 
 
 
-<div className="flex flex-col md:flex-row items-top px-8"> 
-    <card className="w-1/3 md:w-1/3">
-
-
-        <h3>Description</h3>
+        <div className="flex flex-col md:flex-row px-1 pt-5"> 
+            <section className="w-1/3 md:w-1/3 px-1 pt-5">
+                <h3 className="small">Description</h3>
         <p>A rag-tag group of actors have to put on a show and save a farm, all in one short summer. Inspired by the Mickey and Judy films and Summer Stock.</p>
 
           <h3>Purchase to Download</h3>
@@ -41,9 +42,9 @@ const BabesPage = () => (
 
            <a href="https://gum.co/KwLxg" target="blank" className="no-underline "><button className="border-grey-darker hover:border-grey-dark bg-dark-purple hover:bg-pink font-bold px-6 py-3 rounded text-sm text-white">Buy Play</button></a>
 
-    </card>
+    </section>
 
-   <card className="md:w-2/3">
+   <section className="md:w-2/3 px-1 pt-5 font-serif">
    <h3 className="text-center">
       Babes on Farms
     </h3>
@@ -499,7 +500,7 @@ const BabesPage = () => (
 <p> Okay.</p> 
 <p className="stage">Looks at the sheet paper.</p> 
 <p className="character">MICKEY(CONT'D) </p> 
-<p>This looks really terrific. How about if we did this...and this...and ooh, let’s add a couple notes here...this is really great. This is really going knock their socks off. We’ll have that producer’s card in no time.</p> 
+<p>This looks really terrific. How about if we did this...and this...and ooh, let’s add a couple notes here...this is really great. This is really going knock their socks off. We’ll have that producer’s section in no time.</p> 
 <p className="character">TYLER</p> 
 <p> All right, Victoria. You really think you can sing this?</p> 
 <p className="character">VICTORIA</p> 
@@ -580,7 +581,7 @@ const BabesPage = () => (
 <p className="stage">They cheer. Blackout. End of play.</p> 
 
 
-</card>
+</section>
 </div>
 
 

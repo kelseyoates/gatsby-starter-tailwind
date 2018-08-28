@@ -16,73 +16,60 @@ import bsodiscover from "../images/discover-300.gif";
 
 const BSOPage = () => (
   <div>
-  <div className="flex flex-col md:flex-row bg-bso items-center pl-5"> 
-  <div className="md:w-2/3">
-    <h1 className="inline-block">
-      Boston Symphony Orchestra
-    </h1>
-    <p>
-    A concept project to attract millennials to the BSO via their mobile app.
-    </p>
+    <div className="flex flex-col md:flex-row items-center bg-bso px-1 pt-5"> 
+        <div className="md:w-2/3 sm:w-3/3 text-center">
+            <img src={bsoapp} className="app"/>
+        </div>
 
- 
-
-</div>
-
-<div className="md:w-1/">
-  <img src={bsoapp} className="app"/>
-</div>
+        <div className="md:w-2/3 sm:w-3/3">
+            <h1 className="inline-block">
+            Boston Symphony Orchestra
+            </h1>
+            <p>
+            A concept project to attract millennials to the BSO via their mobile app.
+            </p>
+        </div>
+    </div>
 
 
-</div>
-
-
-<div className="flex flex-col md:flex-row px-8"> 
-
-
-   <card className="w-1/3 md:w-1/3">
-    <h3 className="inline-block">
-      0 - Project Overview
-    </h3>
-    </card>
-
-   <card className="md:w-2/3">
- 
-
-
-        <h3>Project Details</h3>
-        <p>
-   <strong>Timeline: </strong> 2 Weeks
-    </p>
-    <p>
-    <strong>Teammates: </strong> Mary and Peter 
-    </p>
-    <p>
-    <strong>My Roles: </strong>IA, UX Writing
-    </p>
-
-
-        <h3>Problem Statement</h3>
-        <p>The BSO audience is getting older and the BSO is having trouble attracting a younger one.</p>
-
-          <h3>Solution Statement</h3>
-  <p>
-  Create new functionality in the existing app to show millennials how classical music is relevant to their lives today.</p>
-    </card>
+    <div className="flex flex-col md:flex-row px-1 pt-5"> 
+        <section className="w-1/3 md:w-1/3 px-1 pt-5">
+            <h3 className="small">
+            0 - Project Overview
+            </h3>
+        </section>
+        <section className="md:w-2/3 px-1 pt-5 font-light">
+            <h3>Project Details</h3>
+                <p>
+                    <strong>Timeline: </strong> 2 Weeks
+                </p>
+                <p>
+                    <strong>Teammates: </strong> Mary and Peter 
+                </p>
+                <p>
+                    <strong>My Roles: </strong>IA, UX Writing
+                </p>
+            <h3>Problem Statement</h3>
+                <p>The BSO audience is getting older and the BSO is having trouble attracting a younger one.</p>
+            <h3>Solution Statement</h3>
+                <p>
+                Create new functionality in the existing app to show millennials how classical music is relevant to their lives today.
+                </p>
+        </section>
 
 
 </div>
 
 
 
-<div className="flex flex-col md:flex-row items-top px-8"> 
-    <card className="w-1/3 md:w-1/3">
-    <h3 className="inline-block">
+<div className="flex flex-col md:flex-row items-top px-1 pt-5"> 
+        <section className="w-1/3 md:w-1/3 px-1 pt-5">
+            <h3 className="small">
       1 - Client Research
     </h3>
-    </card>
+    </section>
 
-   <card className="md:w-2/3">
+   <section className="md:w-2/3 px-1 pt-5 font-light">
    <h3>The BSO App</h3>
    <p>
    The first thing we did was look at the BSO app's existing app.
@@ -99,20 +86,20 @@ const BSOPage = () => (
     <p>I discovered that there was one company that had made apps for seemingly all of the theaters, museums, and aquariums in America. In order to gain inspiration, we ended up looking towards apps like Spotify and SoundCloud.</p>
     <img src={bsocompetitive} />
     <h6>Our competitive analysis.</h6>
-</card>
+</section>
 
 </div>
 
 
-<div className="flex flex-col md:flex-row items-top px-8"> 
-    <card className="w-1/3 md:w-1/3">
-    <h3 className="inline-block">
+<div className="flex flex-col md:flex-row items-top px-1 pt-5"> 
+<section className="w-1/3 md:w-1/3 px-1 pt-5">
+            <h3 className="small">
       2 - User Research
     </h3>
-    </card>
+    </section>
 
  
-<card className="w-1/3 md:w-2/3">
+ <section className="md:w-2/3 px-1 pt-5 font-light">
 <h3>User Research</h3>
 <p>Once we had a better understanding of the BSO and what its existing offers were, we started on user research.</p>
  <img src={bsouserresearch} />
@@ -122,22 +109,22 @@ const BSOPage = () => (
 <p>After working separately, we came back together to synthesize and create starter personas. I continued work on the personas over the weekend.</p>
  <img src={bsoaffinity} />
  <h6>Our user research affinity map.</h6>
-</card>
+</section>
 
 
 </div>
 
 
 
-<div className="flex flex-col md:flex-row items-top px-8"> 
-    <card className="w-1/3 md:w-1/3">
-    <h3 className="inline-block">
+<div className="flex flex-col md:flex-row items-top px-1 pt-5"> 
+<section className="w-1/3 md:w-1/3 px-1 pt-5">
+            <h3 className="small">
       3 - Personas
     </h3>
   
-</card>
+</section>
   
-   <card className="w-1/3 md:w-2/3">
+<section className="md:w-2/3 px-1 pt-5 font-light">
     <img src={bsorishi} className="medium" />
     <h6>Photo by <a href="https://unsplash.com/@melodyjacob1">Melody Jacob</a> on Unsplash</h6>
     
@@ -181,7 +168,7 @@ const BSOPage = () => (
        </p>
                  <p>
       <strong>Family: </strong> 
-      Rishie has three little sisters who she loves very much but who also tremendously annoy her. Her mom is a professor of mathematics at UCLA and her dad is a cardiologist. They were sad to see her move to Boston, but are also excited to see her accomplishing her goals. But they still hope she'll move back to California one day. Boston's way too cold.
+      Rishie has three little sisters who she loves very much but who also tremendously annoy her. Her mom is a professor of mathematics at UCLA and her dad is a sectioniologist. They were sad to see her move to Boston, but are also excited to see her accomplishing her goals. But they still hope she'll move back to California one day. Boston's way too cold.
        </p>
     <p>
       <strong>Favorite Concerts: </strong> 
@@ -276,22 +263,22 @@ const BSOPage = () => (
       To live life to the fullest and be grateful for every moment.
       </p>
 
-</card>
+</section>
 
 </div>
 
 
 
 
-<div className="flex flex-col md:flex-row items-top px-8"> 
-    <card className="w-1/3 md:w-1/3">
-    <h3 className="inline-block">
+<div className="flex flex-col md:flex-row items-top px-1 pt-5"> 
+<section className="w-1/3 md:w-1/3 px-1 pt-5">
+            <h3 className="small">
       4 - Developing the Design
     </h3>
-    </card>
+    </section>
 
  
-<card className="w-1/3 md:w-2/3">
+ <section className="md:w-2/3 px-1 pt-5 font-light">
 <h3>Sketching and Wireframes</h3>
    <p>
    To kick off the design part of our process, we ran a sketch studio. My teammates and I each would sketch for a minute or two and then talk about the results. We did this for several rounds until we had a more comprehensive set of sketches.
@@ -304,22 +291,22 @@ const BSOPage = () => (
     </p>
  <img src={bsotest} />
  <h6>Our user testing script.</h6>
-</card>
+</section>
 
 
 </div>
 
 
 
-<div className="flex flex-col md:flex-row items-top px-8"> 
-    <card className="w-1/3 md:w-1/3">
-    <h3 className="inline-block">
+<div className="flex flex-col md:flex-row items-top px-1 pt-5"> 
+<section className="w-1/3 md:w-1/3 px-1 pt-5">
+            <h3 className="small">
       5 - Iterating
     </h3>
-    </card>
+    </section>
 
  
-<card className="w-1/3 md:w-2/3">
+ <section className="md:w-2/3 px-1 pt-5 font-light">
 <h3>Clarifying the Flows</h3>
    <p>
    We quickly iterated to address the major concerns, which were:
@@ -343,25 +330,20 @@ const BSOPage = () => (
  <h6>Our user flows.</h6>
  <img src={bsoappmap} />
  <h6>The app map for "Tickets and Events" and "Listen and Learn".</h6>
-</card>
-
+</section>
 
 </div>
 
 
-
-
-
-
-<div className="flex flex-col md:flex-row items-top px-8"> 
-    <card className="w-1/3 md:w-1/3">
-    <h3 className="inline-block">
+<div className="flex flex-col md:flex-row items-top px-1 pt-5"> 
+<section className="w-1/3 md:w-1/3 px-1 pt-5">
+            <h3 className="small">
       6 - The Prototype
     </h3>
-    </card>
+    </section>
 
  
-<card className="w-1/3 md:w-2/3">
+ <section className="md:w-2/3 px-1 pt-5 font-light">
 <h3>A Clickable Prototype</h3>
    <p>
    Our two-weeks up, my teammates put the final touches on the prototype while I worked on our presentation.<br/>
@@ -378,7 +360,7 @@ const BSOPage = () => (
     <img src={bsotickets} />
 
 
-</card>
+</section>
 
 </div>
 

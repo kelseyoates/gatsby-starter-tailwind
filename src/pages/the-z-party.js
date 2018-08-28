@@ -9,31 +9,31 @@ const ZPartyPage = () => (
 
 
 <div className="pt-5 flex flex-wrap bg-6 items-center text-center">
-  <div className="sm:w-1/1 md:w-1/2">
-    <h1 className="inline-block">
-      The Z-Party
-    </h1>
-    <p>
-    Read online for free or purchase to download.
-    </p>
-
-</div>
 
  <div className="sm:w-1/1 md:w-1/2">
   <img src={zParty} className="top"/>
 </div>
 
 
+  <div className="sm:w-1/1 md:w-1/2">
+    <h1 className="text-white">
+      The Z-Party
+    </h1>
+    <p className="text-white">
+    Read online for free or purchase to download.
+    </p>
+
 </div>
 
 
 
-
-<div className="flex flex-col md:flex-row items-top px-8"> 
-    <card className="w-1/3 md:w-1/3">
+</div>
 
 
-        <h3>Description</h3>
+        <div className="flex flex-col md:flex-row px-1 pt-5"> 
+            <section className="w-1/3 md:w-1/3 px-1 pt-5">
+                <h3 className="small">
+      Description</h3>
         <p>Come to the Z-Party! A totally normal, not full of zombies party that you should definitely come to.</p>
 
           <h3>Purchase to Download</h3>
@@ -44,9 +44,9 @@ const ZPartyPage = () => (
 
    
 
-    </card>
+    </section>
 
-   <card className="md:w-2/3">
+   <section className="md:w-2/3 px-1 pt-5 font-serif">
    <h3 className="text-center">
       The Z-Party
     </h3>
@@ -150,7 +150,7 @@ const ZPartyPage = () => (
 <p> You two are lucky I died of smoke inhalation! Sorry, everyone, no new brains tonight. But hey, we’ve still got the pizza. I call the everything!</p>
 <p className="Stage">Blackout. End of play. </p>
 
-</card>
+</section>
 </div>
 
 

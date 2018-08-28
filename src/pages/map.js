@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "gatsby-link";
 
-import mapapp from "../images/map-app.png";
+import mapapp from "../images/map.png";
 import mapaffinity from "../images/affinity-map-map.png";
 import mapfeatures from "../images/feature-prioritization-map.png";
 import map1 from "../images/1-map.png";
@@ -14,36 +14,30 @@ import mapgif from "../images/map.gif";
 
 
 const MAPPage = () => (
-  <div>
-  <div className="flex flex-col md:flex-row items-center bg-map px-1 pt-5"> 
-
-  <div className="w-2/3 md:w-2/3">
-    <h1 className="inline-block">
-    Medication Administration Program
-    </h1>
-    <p>
-    A concept project to explore a digital solution for the MAP protocol.
-    </p>
-
-</div>
-
-<div className="w-1/3 md:w-1/3">
-  <img src={mapapp} className="app"/>
-</div>
+    <div>
+        <div className="flex flex-col md:flex-row items-center bg-map px-8 pt-5"> 
+            <div className="md:w-2/3 sm:w-3/3 text-center">
+                <img src={mapapp} className="app"/>
+            </div>
+            <div className="md:w-2/3 sm:w-3/3">
+                <h1 className="inline-block">
+                Medication Administration Program
+                </h1>
+                <p>
+                A concept project to explore a digital solution for the MAP protocol.
+                </p>
+            </div>
+        </div>
 
 
-</div>
+        <div className="flex flex-col md:flex-row px-1 pt-5"> 
+            <section className="w-1/3 md:w-1/3 px-1 pt-5">
+                <h3 className="small">
+                0 - Project Overview
+                </h3>
+                </section>
 
-
-<div className="flex flex-col md:flex-row px-1 pt-5"> 
-
-   <card className="w-1/3 md:w-1/3">
-    <h3 className="inline-block">
-      0 - Project Overview
-    </h3>
-    </card>
-
-   <card className="md:w-2/3">
+   <section className="md:w-2/3 px-1 pt-5 font-light">
  
       <h3>Map and Me</h3>
       <p>
@@ -59,7 +53,7 @@ const MAPPage = () => (
         <h3>Solution Statement</h3>
   <p>
   I designed a MAP-compliant mobile app for direct care staffers to use when administering medication.</p>
-  </card>
+  </section>
 
 
 </div>
@@ -69,14 +63,14 @@ const MAPPage = () => (
 
 
 
-<div className="flex flex-col md:flex-row items-top px-1 pt-5"> 
-    <card className="w-1/3 md:w-1/3">
-    <h3 className="inline-block">
+<div className="flex flex-col md:flex-row items-top px-1 pt-5 "> 
+    <section className="w-1/3 md:w-1/3 px-1 pt-5">
+    <h3 className="small">
       1 -  Research
     </h3>
-    </card>
+    </section>
 
-   <card className="w-1/3 md:w-2/3">
+   <section className="w-1/3 md:w-2/3 px-1 pt-5 font-light">
 
    <h3>Reviewing MAP</h3>
    <p>
@@ -103,29 +97,22 @@ const MAPPage = () => (
 <img src={mapfeatures} />
     <h6>The feature prioritization matrix.</h6>
 
-</card>
+</section>
 
 </div>
 
 
 
 
-
-
-
-
-
-
-
 <div className="flex flex-col md:flex-row items-top px-1 pt-5"> 
-    <card className="w-1/3 md:w-1/3">
-    <h3 className="inline-block">
+    <section className="w-1/3 md:w-1/3 px-1 pt-5">
+    <h3 className="small">
       2 - Sketching
     </h3>
-    </card>
+    </section>
 
  
-<card className="w-1/3 md:w-2/3">
+<section className="w-1/3 md:w-2/3 px-1 pt-5 font-light">
 <h3>Translating MAP into an App</h3>
 <p>Since MAP is a protocol, I was trying to very literally interpret those steps into digital ones. But within those screens, I was also trying to address the aforementioned user concers.</p>
 <p>Here's how I thought about and interpreted the primary three concerns.</p>
@@ -173,7 +160,7 @@ const MAPPage = () => (
     <h6>The client's image and name stays in the corner, with the exception of the check screens.</h6>
 
 
-</card>
+</section>
 
 
 
@@ -182,34 +169,34 @@ const MAPPage = () => (
 
 
 <div className="flex flex-col md:flex-row items-top px-1 pt-5"> 
-    <card className="w-1/3 md:w-1/3">
-    <h3 className="inline-block">
+    <section className="w-1/3 md:w-1/3 px-1 pt-5">
+    <h3 className="small">
       3 - The Prototype
     </h3>
   
-    </card>
+    </section>
   
-   <card className="w-1/3 md:w-2/3">
+   <section className="w-1/3 md:w-2/3 px-1 pt-5 font-light">
 
    <h3>Skipping Ahead</h3>
    <p>As this was a one week project focused on decision-making, I went from sketching to high-fidelity wire frames using Sketch. I then turned these wireframes into a prototype using InVision.</p>
 
          <p>I recently went back and cleaned up the screens a bit, but this is it.</p>
          <img src={mapgif} />
-    </card>
+    </section>
 </div>
 
 
 
 <div className="flex flex-col md:flex-row items-top px-1 pt-5"> 
-    <card className="w-1/3 md:w-1/3">
-    <h3 className="inline-block">
+    <section className="w-1/3 md:w-1/3 px-1 pt-5 ">
+    <h3 className="small">
       4 - Next Steps
     </h3>
   
-    </card>
+    </section>
   
-   <card className="w-1/3 md:w-2/3">
+   <section className="w-1/3 md:w-2/3 px-1 pt-5 font-light">
 
 <h3>User Research</h3>
 <p>First, I would employ more user research . For example, I was very guided by my own experience in this process. In the future, I'd want to explore other situations in which MAP is used. For example, what about day programs where dozens of clients might be receiving medication? Also, how would the MAP App handle liquid medication? Injections?</p>
@@ -220,7 +207,7 @@ const MAPPage = () => (
    <p>And of course for a project like this, I would have to work with the stakeholders - aka the Massachusetts departments of Mental Health, Children and Family Services, and Developmental Services. So there would be a substantial amount of work before further pursuing this on a professional level. Still, I enjoyed getting to explore this issue in an academic setting and hopefully I'll be able to work on it at a higher level further down the road.</p>
  
      
-    </card>
+    </section>
 
 
 </div>

@@ -46,16 +46,15 @@ const ScratchPage = () => (
 </div>
 
 
-<div className="flex flex-col md:flex-row px-8"> 
 
-
-   <card className="w-1/3 md:w-1/3">
-    <h3 className="inline-block">
+        <div className="flex flex-col md:flex-row px-1 pt-5"> 
+            <section className="w-1/3 md:w-1/3 px-1 pt-5">
+                <h3 className="small">
       Details
     </h3>
-    </card>
+    </section>
 
-   <card className="md:w-2/3">
+   <section className="md:w-2/3 px-1 pt-5 font-light">
  
 
         <h3>Description</h3>
@@ -69,21 +68,22 @@ const ScratchPage = () => (
      
 
         
-    </card>
+    </section>
 
 
 </div>
 
 
 
-<div className="flex flex-col md:flex-row items-top px-8"> 
-    <card className="w-1/3 md:w-1/3">
-    <h3 className="inline-block">
+
+        <div className="flex flex-col md:flex-row px-1 pt-5"> 
+            <section className="w-1/3 md:w-1/3 px-1 pt-5">
+                <h3 className="small">
       Short Plays
     </h3>
-    </card>
+    </section>
 
-   <card className="md:w-2/3">
+   <section className="md:w-2/3 px-1 pt-5 font-light">
    
 <div className="flex flex-wrap">
 
@@ -172,17 +172,18 @@ const ScratchPage = () => (
 
   </div>
 
-</card>
+</section>
 </div>
 
-<div className="flex flex-col md:flex-row items-top px-8"> 
-    <card className="w-1/3 md:w-1/3">
-    <h3 className="inline-block">
+
+        <div className="flex flex-col md:flex-row px-1 pt-5"> 
+            <section className="w-1/3 md:w-1/3 px-1 pt-5">
+                <h3 className="small">
       Medium-Length Plays
     </h3>
-    </card>
+    </section>
 
-   <card className="md:w-2/3">
+   <section className="md:w-2/3 px-1 pt-5 font-light">
    
 <div className="flex flex-wrap">
   <div className="sm:w-1/2 md:w-1/2 lg:w-1/2">
@@ -235,18 +236,19 @@ const ScratchPage = () => (
 
   </div>
 
-</card>
+</section>
 </div>
 
 
-<div className="flex flex-col md:flex-row items-top px-8"> 
-    <card className="w-1/3 md:w-1/3">
-    <h3 className="inline-block">
+
+        <div className="flex flex-col md:flex-row px-1 pt-5"> 
+            <section className="w-1/3 md:w-1/3 px-1 pt-5">
+                <h3 className="small">
       Long Plays
     </h3>
-    </card>
+    </section>
 
-   <card className="md:w-2/3">
+   <section className="md:w-2/3 px-1 pt-5 font-light">
    
 <div className="flex flex-wrap">
   <div className="sm:w-1/2 md:w-1/2 lg:w-1/2">
@@ -311,7 +313,7 @@ const ScratchPage = () => (
 
   </div>
 
-</card>
+</section>
 </div>
 
 

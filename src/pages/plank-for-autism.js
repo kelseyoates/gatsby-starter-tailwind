@@ -11,36 +11,35 @@ const PlankForAutismPage = () => (
 
 
 <div className="pt-5 flex flex-wrap bg-6 items-center text-center">
-  <div className="sm:w-1/1 md:w-1/2">
-    <h1 className="inline-block">
-      Plank for Autism
-    </h1>
-    <p>
-    An infographic for AANE | The Asperger/Autism Network.
-    </p>
-
-</div>
 
  <div className="sm:w-1/1 md:w-1/2">
   <img src={plankCover} className="top"/>
 </div>
 
 
+  <div className="sm:w-1/1 md:w-1/2">
+    <h1 className="text-white">
+      Plank for Autism
+    </h1>
+    <p className="text-white">
+    An infographic for AANE | The Asperger/Autism Network.
+    </p>
+
 </div>
 
 
-<div className="flex flex-col md:flex-row px-8"> 
 
+</div>
 
-   <card className="w-1/3 md:w-1/3">
-    <h3 className="inline-block">
+        <div className="flex flex-col md:flex-row px-1 pt-5"> 
+            <section className="w-1/3 md:w-1/3 px-1 pt-5">
+                <h3 className="small">
       Project Overview
     </h3>
-    </card>
+    </section>
 
-   <card className="md:w-2/3">
+   <section className="md:w-2/3 px-1 pt-5 font-light">
  
-
         <h3>Client</h3>
         <p>AANE | The Asperger/Autism Network</p>
 
@@ -49,28 +48,28 @@ const PlankForAutismPage = () => (
         <h3>Tools</h3>
         <p>Piktochart, FlatIcon</p>
         
-    </card>
+    </section>
 
 
 </div>
 
 
 
-<div className="flex flex-col md:flex-row items-top px-8"> 
-    <card className="w-1/3 md:w-1/3">
-    <h3 className="inline-block">
+        <div className="flex flex-col md:flex-row px-1 pt-5"> 
+            <section className="w-1/3 md:w-1/3 px-1 pt-5">
+                <h3 className="small">
       Deliverables
     </h3>
-    </card>
+    </section>
 
-   <card className="md:w-2/3">
+   <section className="md:w-2/3 px-1 pt-5 font-light">
    <h3>Plank for Autism - Infographic</h3>
 
     <img src={plank} className="shadow"/>
 
 
 
-</card>
+</section>
 </div>
 
   </div>
