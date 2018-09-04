@@ -10,12 +10,7 @@ const ZPartyPage = () => (
 
 <div className="pt-5 flex flex-wrap bg-6 items-center text-center">
 
- <div className="sm:w-1/1 md:w-1/2">
-  <img src={zParty} className="top"/>
-</div>
-
-
-  <div className="sm:w-1/1 md:w-1/2">
+  <div className="sm:w-1/1 md:w-1/1">
     <h1 className="text-white">
       The Z-Party
     </h1>
@@ -40,9 +35,6 @@ const ZPartyPage = () => (
         <p>Buy the book and you'll receive a PDF of the script.</p>
 
            <a href="https://gum.co/FvQJI" target="blank" className="no-underline "><button className="border-grey-darker hover:border-grey-dark bg-dark-purple hover:bg-pink font-bold px-6 py-3 rounded text-sm text-white">Buy Play</button></a>
-
-
-   
 
     </section>
 

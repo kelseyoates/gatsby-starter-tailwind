@@ -10,12 +10,8 @@ const EverybodyLovesKatiePage = () => (
 
 <div className="pt-5 flex flex-wrap bg-6 items-center text-center">
 
- <div className="sm:w-1/1 md:w-1/2">
-  <img src={everybody} className="top"/>
-</div>
 
-
-  <div className="sm:w-1/1 md:w-1/2">
+  <div className="sm:w-1/1 md:w-1/1">
     <h1 className="text-white">
       Everybody Loves Katie
     </h1>

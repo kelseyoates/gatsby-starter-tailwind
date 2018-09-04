@@ -10,12 +10,9 @@ const LifesAZooPage = () => (
 
 <div className="pt-5 flex flex-wrap bg-6 items-center text-center">
 
- <div className="sm:w-1/1 md:w-1/2">
-  <img src={zoo} className="top"/>
-</div>
 
 
-  <div className="sm:w-1/1 md:w-1/2">
+  <div className="sm:w-1/1 md:w-1/1">
     <h1 className="text-white">
       Life's A Zoo
     </h1>
