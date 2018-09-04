@@ -304,7 +304,7 @@ const ScratchPage = () => (
       <h3>The Debate</h3>
       <p>A heated election. A contentious debate. Who will win and rule the great nation of Candyland?</p>
       <Link to="/the-debate" className="block md:inline-block py-3 md:mt-0 no-underline text-white">
-        <button className="border-grey-darker hover:border-grey-dark bg-dark-purple hover:bg-pink font-bold px-6 py-3 rounded text-sm text-white">Reda</button>
+        <button className="border-grey-darker hover:border-grey-dark bg-dark-purple hover:bg-pink font-bold px-6 py-3 rounded text-sm text-white">Read</button>
       </Link>
     </div>
   </div>

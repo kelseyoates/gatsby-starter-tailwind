@@ -30,8 +30,6 @@ const BabesPage = () => (
 </div>
 
 
-
-
         <div className="flex flex-col md:flex-row px-1 pt-5"> 
             <section className="w-1/3 md:w-1/3 px-1 pt-5">
                 <h3 className="small">Description</h3>

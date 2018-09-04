@@ -10,7 +10,7 @@ import music from "../images/music.png";
 const AboutPage = () => (
   <div>
 
-   <div className="flex flex-col px-1 pt-5"> 
+   <div className="flex flex-col px-1 pt-10"> 
     <h2 className="text-center hand purple">About Me</h2>
     <p className="leading-loose text-center">
     Here's some info beyond my resume. If you'd like to know more about my work history and education, connect with me on  
@@ -22,7 +22,7 @@ const AboutPage = () => (
     </p>
 </div>
 
-<div className="px-1 pt-5 flex flex-wrap">
+<div className="pt-5 flex flex-wrap">
   <div className="sm:w-1/2 md:w-1/2 lg:w-1/4">
     <div className="card bg-1">
     <img src={dog}/>

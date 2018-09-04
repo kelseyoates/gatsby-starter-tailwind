@@ -6,6 +6,7 @@ import Design from "../components/Design/index.js";
 import Seniors from "../components/Seniors/index.js";
 import Communications from "../components/Communications/index.js";
 import SpecialNeeds from "../components/Special-Needs/index.js";
+import ContactForm from "../components/Contact/index.js";
 
 
 
@@ -16,7 +17,7 @@ import GatsbyLink from "gatsby-link";
 const IndexPage = () => (
   <div>
 
-      <div className="flex flex-wrap px-1 pt-5"> 
+      <div className="flex flex-wrap px-1 pt-10"> 
        <div className="md:w-2/3 mx-auto">
         <h1 className="hand purple">
           Hi, I'm Kelsey Oates. 
@@ -41,7 +42,7 @@ const IndexPage = () => (
 <Communications />
 <SpecialNeeds />
 
-
+<ContactForm />
 
 
 
