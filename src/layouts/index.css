@@ -434,6 +434,16 @@ p {
   color: #4B33E3;
 }
 
+.inverse {
+      color: #f1f5f8;
+    background-color: #4b33e3;
+    border-style: solid;
+    border-color: #5e6990;
+    /* border-width: 4px; */
+    border-radius: 25px;
+    padding: .8em;
+}
+
 .footer {
   color: #4B33E3;
   font-weight: 300;
@@ -1434,6 +1444,11 @@ img.header {
 }
 
 
+.pt-10 {
+  padding-top: 10rem;
+}
+
+
 
 .fill-current {
   fill: currentColor;
@@ -1568,6 +1583,11 @@ img.header {
       padding-top: 1rem;
     }
 
+    .pt-10 {
+      padding-top: 5rem;
+    }
+
+
     h1 {
       font-size: 2em;
       font-weight: 700;
@@ -1616,9 +1636,12 @@ img.header {
   padding-right: 3rem;
 }
 
-
 .pt-5 {
   padding-top: 2rem;
+}
+
+.pt-10 {
+  padding-top: 10rem;
 }
 
 
@@ -1658,6 +1681,9 @@ img.header {
   
   .pt-5 {
     padding-top: 2rem;
+  }
+  .pt-10 {
+    padding-top: 10rem;
   }
   
   

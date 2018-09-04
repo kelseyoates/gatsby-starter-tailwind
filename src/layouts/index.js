@@ -18,7 +18,7 @@ const TemplateWrapper = ({ children }) => (
       ]}
     />
     <Header />
-    <div className="flex flex-col flex-1 md:justify-center mx-auto w-full">
+    <div className="flex flex-col flex-1 mx-auto w-full">
       {children()}
     </div>
 
