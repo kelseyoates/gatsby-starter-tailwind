@@ -1,9 +1,6 @@
 import React from "react";
 import Link from "gatsby-link";
 
-import scratchCover from "../images/Scratch-Theater.png";
-import zParty from "../images/the-z-party.png";
-
 const ZPartyPage = () => (
   <div>
 
@@ -39,16 +36,17 @@ const ZPartyPage = () => (
     </section>
 
    <section className="md:w-2/3 px-1 pt-5 font-serif">
-   <h3 className="text-center">
+   <h3 className="text-center small">
       The Z-Party
     </h3>
 
-   <p className="Setting">place: a nightclub underneath a graveyard </p>
-<p className="Setting">time: the near future </p>
-<p className="Character-List">Characters:</p>
-<p className="Character-List">Ghostie Loastie </p>
-<p className="Character-List">Howard James </p>
-<p className="Character-List">Z-Master </p>
+   <p className="setting">place: a nightclub underneath a graveyard <br />
+   time: the near future </p>
+<p className="character-list">Characters:<br />
+Ghostie Loastie <br />
+Howard James <br />
+Z-Master </p>
+
 <p className="Stage">GHOSTIE LOASTIE is pacing frantically.</p>
 <p className="character">Ghostie loastie</p>
 

@@ -1,9 +1,6 @@
 import React from "react";
 import Link from "gatsby-link";
 
-import everybody from "../images/everybody-loves-katie.png";
-import zoo from "../images/lifes-a-zoo.png";
-
 const LifesAZooPage = () => (
   <div>
 
@@ -50,7 +47,7 @@ place: a recording studio<br />
 time: now<br /></p>
 
 
-<p className="Character-List">
+<p className="character-list">
 Characters:<br />
 Ben - plays Tiger, Lion<br />
 Faye <br />
@@ -58,7 +55,7 @@ Katie <br />
 Victoria - plays PB <br />
 Jennifer - plays Big Bear </p>
 
-<p className="Stage">Ben is recording his dialogue for the new animated film, “Life’s a Zoo”. He plays multiple animals.</p>
+<p className="stage">Ben is recording his dialogue for the new animated film, “Life’s a Zoo”. He plays multiple animals.</p>
 <p className="character">Tiger</p>
 <p> And then I said, I am Tiger, hear me roar!</p>
 <p className="character">Lion</p>
@@ -80,7 +77,7 @@ Jennifer - plays Big Bear </p>
 <p className="character">Faye</p>
 
  <p> Well, that’s the news from above.</p>
- <p className="Stage">Victoria and Jennifer walk in.</p>
+ <p className="stage">Victoria and Jennifer walk in.</p>
 <p className="character">Ben</p>
 
  <p> Oh no. Not these two.</p>
@@ -93,7 +90,7 @@ Jennifer - plays Big Bear </p>
 <p className="character">Faye</p>
 
  <p> Guys, if we could all please just get along. This is a huge production and I’d like it to go as smoothly as possible.</p>
- <p className="Stage">Katie walks in.</p>
+ <p className="stage">Katie walks in.</p>
 <p className="character">Katie</p>
 
  <p> Listen up, y’all. I am the director of this film and I am the one who decided that you should all be here, together. I wanted to try something different, so stop complaining and get to work.</p>
@@ -112,11 +109,11 @@ Jennifer - plays Big Bear </p>
 <p className="character">Faye</p>
 
  <p> If you guys could hurry up, we’ve only got so much studio time.</p>
-<p className="Stage">They get back in position in the booth.</p>
+<p className="stage">They get back in position in the booth.</p>
 <p className="character">Faye (CONT’D) </p>
 
  <p> Three, two-</p>
- <p className="Stage">Faye motions for them to go.</p>
+ <p className="stage">Faye motions for them to go.</p>
 <p className="character">PB</p>
 <p> Ugh, I’m so hot.</p>
 <p className="character">Tiger</p>
@@ -125,7 +122,7 @@ Jennifer - plays Big Bear </p>
 <p> Well, I’m sorry I’m a polar bear and am used to my wonderful subzero temperatures. Honestly, it’s like a sauna in here.</p>
 <p className="character">BIG BEAR</p>
 <p>Hey, girl. Look what I just found!</p>
-<p className="Stage">In the movie, Victoria will be holding up a zookeeper, who is nervously dangling in her paw.</p>
+<p className="stage">In the movie, Victoria will be holding up a zookeeper, who is nervously dangling in her paw.</p>
 <p className="character">PB</p>
 <p> Big Bear, you can’t do that.</p>
 <p className="character">BIG BEAR</p>
@@ -144,17 +141,17 @@ Jennifer - plays Big Bear </p>
 <p> No-</p>
 <p className="character">BIG BEAR</p>
 <p>Wait wait wait- hear him out. Tigers get good ideas all the time-</p>
-<p className="Stage">Big Bear and PB burst out laughing.</p>
+<p className="stage">Big Bear and PB burst out laughing.</p>
 <p className="character">Tiger</p>
 <p> Laugh all you want, but I know a way to get out of here.</p>
-<p className="Stage">Their ears all perk up.</p>
+<p className="stage">Their ears all perk up.</p>
 <p className="character">Tiger (CONT’D) </p>
 <p> I’ve been studying some science, and I think I have a way to stop the electric fence from hurting us.</p>
 <p className="character">BIG BEAR</p>
 <p>Psshawww.</p>
 <p className="character">Tiger</p>
 <p> Hand me the tool belt from that Zookeeper.</p>
-<p className="Stage">In the film, Big Bear takes the still scared Zookeeper’s toolbelt and gives it to Tiger. Tiger walks up to an electrical box and does stuff. Suddenly, a loud clunk is heard. Tiger touches the fence and there is no more current. Everyone gasps.</p>
+<p className="stage">In the film, Big Bear takes the still scared Zookeeper’s toolbelt and gives it to Tiger. Tiger walks up to an electrical box and does stuff. Suddenly, a loud clunk is heard. Tiger touches the fence and there is no more current. Everyone gasps.</p>
 <p className="character">PB</p>
 <p> How did you do that?!</p>
 <p className="character">Tiger</p>
@@ -179,7 +176,7 @@ Jennifer - plays Big Bear </p>
 <p className="character">Jennifer</p>
 
  <p> Peace out, y’all.</p>
-<p className="Stage">Blackout. End of play. </p>
+<p className="stage">Blackout. End of play. </p>
 
 
 

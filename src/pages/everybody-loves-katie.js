@@ -1,9 +1,6 @@
 import React from "react";
 import Link from "gatsby-link";
 
-import everybody from "../images/everybody-loves-katie.png";
-import zParty from "../images/the-z-party.png";
-
 const EverybodyLovesKatiePage = () => (
   <div>
 
@@ -51,7 +48,7 @@ place: a local restaurant<br />
 time: spring 2013</p>
 
 
-<p className="Character-List">
+<p className="character-list">
 Characters:<br />
 Katie <br />
 Taylor <br />
@@ -61,7 +58,7 @@ Carrie </p>
 <p className="info">This play was written for my cousin on her birthday.</p>
 <br />
 
-<p className="Stage">Taylor Swift, Tim McGraw, and Carrie Underwood are hanging out.</p>
+<p className="stage">Taylor Swift, Tim McGraw, and Carrie Underwood are hanging out.</p>
 <p className="character">Taylor</p>
  <p> Oh em geeeeee you guyzzzz. I am having, like, major problems right now.</p>
 <p className="character">Tim</p>
@@ -90,7 +87,7 @@ Carrie </p>
  <p> And if she could be tall and if her hair could be even curlier than mine is, then that would be like, the best.</p>
 <p className="character">Tim</p>
  <p> But where are we gonna find a girl who does all that?</p>
-<p className="Stage">Katie walks in.</p>
+<p className="stage">Katie walks in.</p>
 <p className="character">Taylor</p>
  <p> Hey, nice height! And hair!</p>
 <p className="character">Katie</p>
@@ -103,7 +100,7 @@ Carrie </p>
  <p> What are you having?</p>
 <p className="character">Katie</p>
  <p> A BLT with cole slaw.</p>
-<p className="Stage">Carrie and Taylor gasp!</p>
+<p className="stage">Carrie and Taylor gasp!</p>
 <p className="character">Tim</p>
  <p> Hey, Katie, what would you say to a game of basketball?</p>
 <p className="character">Katie</p>
@@ -138,7 +135,7 @@ Carrie </p>
  <p> I am pretty darn cool.</p>
 <p className="character">Tim</p>
  <p> Oh wait, but aren’t you ladies going on different tours?</p>
-<p className="Stage">Taylor and Carrie suddenly eye each other.</p>
+<p className="stage">Taylor and Carrie suddenly eye each other.</p>
 <p className="character">Carrie</p>
  <p> Yeah, but my tour is going to be way better.</p>
 <p className="character">Taylor</p>
@@ -187,7 +184,7 @@ Carrie </p>
  <p> Oh my god, we are like, so totally going on tour together you guys, and I am like, so totally excited and like-</p>
 <p className="character">Carrie</p>
  <p> AND TIM To the tour!</p>
-<p className="Stage">They all cheer, as Taylor trails off. Blackout. End of play. </p>
+<p className="stage">They all cheer, as Taylor trails off. Blackout. End of play. </p>
 
 </section>
 </div>

@@ -1,22 +1,13 @@
 import React from "react";
 import Link from "gatsby-link";
 
-import scratchCover from "../images/Scratch-Theater.png";
-import babes from "../images/babes-on-farms.png";
-
 const BabesPage = () => (
   <div>
 
 
 <div className="flex flex-wrap bg-6 items-center text-center">
 
-
- <div className="sm:w-1/1 md:w-1/2">
-  <img src={babes} className="plays"/>
-</div>
-
-
-  <div className="sm:w-1/1 md:w-1/2">
+  <div className="sm:w-1/1 md:w-1/1">
     <h1 className="text-white">
       Babes on Farms
     </h1>
@@ -47,12 +38,12 @@ const BabesPage = () => (
       Babes on Farms
     </h3>
 
-    <p className="play">
+    <p className="setting">
       place: New York City<br />
       time: 1950s<br /><br />
     </p> 
 
-		<p class="characters">
+		<p class="character-list">
       Characters:<br />
       Victoria Bloom <br />
       Producer <br />
