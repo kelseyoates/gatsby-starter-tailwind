@@ -64,7 +64,13 @@ const Header = () => {
               to="/design"
               className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline purple"
             >
-              Design
+              UX Design
+            </Link>
+            <Link
+              to="/communications"
+              className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline purple"
+            >
+              Communications
             </Link>
 
 
@@ -78,7 +84,7 @@ const Header = () => {
 
             <Link
               to="/contact"
-              className="block md:inline-block mt-4 md:mt-0 no-underline purple"
+              className="block md:inline-block mt-4 md:mt-0 no-underline inverse"
             >
               Contact
             </Link>

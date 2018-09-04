@@ -3,7 +3,7 @@ import Link from "gatsby-link";
 
 import sarah from "../../images/sarah-sun-and-the-contest.png";
 import scratch from "../../images/Scratch-Theater.png";
-import pen from "../../images/pen.png";
+import pen from "../../images/pen-and-ink.png";
 
 
 const SpecialNeeds = () => (
@@ -39,7 +39,7 @@ const SpecialNeeds = () => (
       <img src={pen} />
       <h3>Pen and Ink</h3>
       <p>a writing workshop</p>
-      <Link to="/scratch-theater" className="block md:inline-block py-3 md:mt-0 no-underline text-white">
+      <Link to="/pen-and-ink" className="block md:inline-block py-3 md:mt-0 no-underline text-white">
         <button className="border-grey-darker hover:border-grey-dark bg-dark-purple hover:bg-pink font-bold px-6 py-3 rounded text-sm text-white">Read</button>
       </Link>
     </div>

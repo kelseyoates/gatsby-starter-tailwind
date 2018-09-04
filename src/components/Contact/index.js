@@ -7,7 +7,7 @@ function encode(data) {
       .join("&");
 }
 
-export default class Contact extends React.Component {
+export default class ContactForm extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
@@ -31,52 +31,80 @@ export default class Contact extends React.Component {
 
   render() {
     return (
-      <div className="row work">
 
-        <div className="twelve columns">
-        <h1>Contact</h1>
+    <div>
+
+
+      <div className="flex flex-col px-1 pt-5"> 
+      <h2 className="text-center hand purple">Let's talk!</h2>
+      <p className="leading-loose text-center">
+      The best way to get a hold of me is by filling out the contact form below 👇
+      </p>
+  </div>
+  
+
+<div className="flex flex-col md:flex-row px-1 pt-5"> 
         <form
           name="contact"
+          className="mx-auto md:w-1/2 sm:w-2/3 xsm:w-1/1"
           method="post"
           action="/thanks/"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
           onSubmit={this.handleSubmit}
         >
+          {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
+          <input type="hidden" name="form-name" value="contact" />
           <p hidden>
-            <label>
-              Don’t fill this out: <input name="bot-field" />
-            </label>
-          </p>
-          <p>
-            <label>
-              Your name:<br />
-            <input type="text" name="name" onChange={this.handleChange}/>
-            </label>
-          </p>
-          <p>
-            <label>
-              Your email:<br />
-              <input type="email" name="email" onChange={this.handleChange}/>
-            </label>
-          </p>
-          <p>
-            <label>
-              Message:<br />
-              <textarea name="message" onChange={this.handleChange}/>
-            </label>
-          </p>
+            <label >
+              Don’t fill this out:{" "}
+              <input 
+              
+              name="bot-field" 
 
+              onChange={this.handleChange} />
+            </label>
+          </p>
           <p>
-            <button type="submit">Send</button>
+            <label className="block font-bold mb-2 text-xs uppercase">
+              Your name:<br />
+              <input 
+              className="appearance-none block bg-grey-lighter mb-6 p-3 rounded-md text-grey-darker w-full"
+            
+              placeholder="Elizabeth Lemon"
+              type="text" name="name" onChange={this.handleChange} />
+            </label>
+          </p>
+          <p>
+            <label className="block font-bold mb-2 text-xs uppercase">
+              Your email:<br />
+              <input type="email" 
+              className="appearance-none block bg-grey-lighter mb-6 p-3 rounded-md text-grey-darker w-full"
+            
+              placeholder="tatertotfreak@hotmail.com"
+              name="email" onChange={this.handleChange} />
+            </label>
+          </p>
+          <p>
+            <label className="block font-bold mb-2 text-xs uppercase">
+              Message:<br />
+              <textarea 
+              className="appearance-none block bg-grey-lighter mb-6 p-3 rounded-md text-grey-darker w-full"
+            
+              placeholder="Do you want to go to that popcorn place?"
+              name="message" onChange={this.handleChange} />
+            </label>
+          </p>
+          <p>
+            <button 
+            className="border-b-4 border-grey-darker hover:border-grey-dark bg-grey-dark hover:bg-grey font-bold px-6 py-3 rounded text-sm text-white"
+            type="submit">Send</button>
           </p>
         </form>
-        </div>
-      </div>
 
+</div>
 
-
-
+</div>
 
 
     );
@@ -84,4 +112,4 @@ export default class Contact extends React.Component {
 }
 
 
-export default Header;
+

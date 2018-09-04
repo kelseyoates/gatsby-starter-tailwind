@@ -13,7 +13,7 @@ const Seniors = () => (
         <img src={seniors}/>
         <h3>Tech Help for Seniors</h3>
         <p>one-on-one help with computers, tablets, and phones</p>
-        <Link to="/about" className="block md:inline-block py-3 md:mt-0 no-underline text-white">
+        <Link to="/seniors" className="block md:inline-block py-3 md:mt-0 no-underline text-white">
           <button className="border-grey-darker hover:border-grey-dark bg-dark-purple hover:bg-pink font-bold px-6 py-3 rounded text-sm text-white">Learn More</button>
         </Link>
       </div>
