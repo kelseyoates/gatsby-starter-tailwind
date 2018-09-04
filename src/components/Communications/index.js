@@ -4,7 +4,7 @@ import Link from "gatsby-link";
 import monthly from "../../images/aane-monthly.png";
 import plank from "../../images/plank-cover.png";
 import hiding from "../../images/hiding-1.png";
-
+import sslc from "../../images/sslc.png";
 
 const Communications = () => (
 
@@ -24,14 +24,12 @@ const Communications = () => (
     </div>
   </div>
 
-  <div className="xsm:w-1/1 sm:w-1/2 md:w-1/3 lg:w-1/3 xlg:w-1/3">
+<div className="xsm:w-1/1 sm:w-1/2 md:w-1/3 lg:w-1/3 xlg:w-1/3">
     <div className="portfolio text-center bg-1">
-      <img src={monthly}/>
-      <h3>AANE Monthly - May '17</h3>
-      <p>video editing, producing</p>
-      <Link to="/about" className="block md:inline-block py-3 md:mt-0 no-underline text-white">
-        <button className="border-grey-darker hover:border-grey-dark bg-dark-purple hover:bg-pink font-bold px-6 py-3 rounded text-sm text-white">Watch</button>
-      </Link>
+    <img src={sslc}/>
+      <h3>South Shore Laboratory Consultants</h3>
+      <p>communications, web design</p>
+        <a href="http://www.sslabconsultants.com" target="blank" className="no-underline py-3 "><button className="border-grey-darker hover:border-grey-dark bg-dark-purple hover:bg-pink font-bold my-3 px-6 py-3 rounded text-sm text-white">Visit ↗️</button></a>
     </div>
   </div>
 
