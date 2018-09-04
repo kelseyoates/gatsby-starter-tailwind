@@ -571,7 +571,7 @@ p.character {
 
 margin-top: 2em;
 margin-bottom: 1em;
-color: #5b32b4;
+color: #5d47e5;
 margin-left: 40%;
 text-transform: uppercase;
 
@@ -665,7 +665,7 @@ line-height: 25px;
 -webkit-font-smoothing: antialiased;
 }
 
-.Character-List {
+.character-list {
 line-height: 30px;
 font-size: 15px;
 margin-bottom: 0;
@@ -689,32 +689,13 @@ widows: 1;
 display: table;
 }
 
-.Parenthetical {
-font-style: italic;
-font-variant: normal;
-font-weight: normal;
-line-height: 1.667;
-margin-bottom: 0;
-margin-left: 30%;
-margin-right: 0;
-margin-top: 0;
-orphans: 1;
-page-break-after: auto;
-page-break-before: auto;
-text-align: left;
-text-decoration: none;
-text-indent: 0;
-text-transform: none;
-widows: 1;
-display: table;
-}
 
 .parenthetical {
   font-style: italic;
 }
 
 .info {
-  color:#403681;
+  color:#9384ee;
 }
 
 .Scratch {
@@ -727,7 +708,7 @@ text-align: left;
 
 }
 
-.Setting {
+.setting {
 font-size: 15px;
 font-style: normal;
 font-variant: normal;
@@ -748,7 +729,7 @@ widows: 1;
 display: table;
 }
 
-.Stage {
+.stage {
 font-size: 15px;
 font-style: italic;
 font-variant: normal;
