@@ -709,6 +709,14 @@ widows: 1;
 display: table;
 }
 
+.parenthetical {
+  font-style: italic;
+}
+
+.info {
+  color:#403681;
+}
+
 .Scratch {
 line-height: 2;
 margin-bottom: 3em;
@@ -932,7 +940,7 @@ border-bottom: 2px inset #20A0BC;
 }
 
 .bg-6 {
-  background-color: #5e6990;
+  background-color: #5d47e5;
   ;
 }
 
