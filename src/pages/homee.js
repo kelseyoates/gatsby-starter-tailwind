@@ -6,7 +6,7 @@ import existingApp from "../images/existing-app.png";
 import existingApp2 from "../images/existing-app-2.png";
 import homeeCA from "../images/homee-ca.png";
 import homeeBill from "../images/david-siglin-87978-unsplash-1.jpg";
-import homeeMatt from "../images/Matt.jpg";
+import homeeMatt from "../images/matt.jpg";
 import homeeSketch from "../images/sketchStudio.png";
 import homeeUsabilityTesting from "../images/usabilityTesting.png";
 import homeePrototypeImage from "../images/prototypeImage.png";
