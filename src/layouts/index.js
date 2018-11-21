@@ -4,6 +4,7 @@ import Helmet from "react-helmet";
 
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import logo from "../images/ko-logo.png";
 import "./index.css";
 
 const TemplateWrapper = ({ children }) => (
@@ -16,6 +17,9 @@ const TemplateWrapper = ({ children }) => (
         { name: "description", content: "UX designer from Boston, MA, communications for small businesses, one-on-one technology and computer help for senior citizens" },
         { name: "keywords", content: "UX, user experience, communications, design, Canton, Sharon, Stoughton, Norwood, senior citizens, computer help, special needs" }
       ]}
+      link={[
+        { rel: 'shortcut icon', type: 'image/png', href: `${logo}` }
+    ]}
     />
     <Header />
     <div className="flex flex-col flex-1 mx-auto w-full">

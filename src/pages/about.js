@@ -1,10 +1,10 @@
 import React from "react";
 import Link from "gatsby-link";
 import dog from "../images/dog.png";
-import headphones from "../images/headphones.png";
 import tennis from "../images/tennis.png";
 import bicycle from "../images/bicycle.png";
 import music from "../images/music.png";
+
 
 
 const AboutPage = () => (
