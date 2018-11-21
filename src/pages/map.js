@@ -20,10 +20,10 @@ const MAPPage = () => (
                 <img src={mapapp} className="app"/>
             </div>
             <div className="md:w-2/3 sm:w-3/3">
-                <h1 className="inline-block">
+                <h1 className="inline-block text-white">
                 Medication Administration Program
                 </h1>
-                <p>
+                <p className="text-white">
                 A concept project to explore a digital solution for the MAP protocol.
                 </p>
             </div>
