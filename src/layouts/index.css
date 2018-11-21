@@ -897,7 +897,7 @@ border-bottom: 2px inset #20A0BC;
 }
 
 .bg-bso {
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/459919/bso-header.png");
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/459919/joshua-rawson-harris-1165052-unsplash.jpg");
   background-position: bottom center;
     background-size: cover;
     background-repeat: repeat;
@@ -1598,7 +1598,8 @@ img.header {
     h3.small {
       font-size: 1.5em;
       font-weight: 700;
-      background-color: #d0ccea;
+      background-color: #384452;
+      color: white;
     }
     
     h3 {

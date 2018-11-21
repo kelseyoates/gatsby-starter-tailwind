@@ -16,16 +16,16 @@ import bsodiscover from "../images/discover-300.gif";
 
 const BSOPage = () => (
   <div>
-    <div className="flex flex-col md:flex-row items-center bg-bso px-1 pt-5"> 
+    <div className="flex flex-col md:flex-row items-center bg-bso  px-1 pt-5"> 
         <div className="md:w-2/3 sm:w-3/3 text-center">
             <img src={bsoapp} className="app"/>
         </div>
 
         <div className="md:w-2/3 sm:w-3/3">
-            <h1 className="inline-block">
+            <h1 className="inline-block text-white">
             Boston Symphony Orchestra
             </h1>
-            <p>
+            <p className="text-white">
             A concept project to attract millennials to the BSO via their mobile app.
             </p>
         </div>
