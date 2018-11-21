@@ -27,7 +27,11 @@ const ScratchPage = () => (
   <div>
 
 
+<<<<<<< HEAD
 <div className="py-8 flex flex-wrap bg-6 items-center text-center bg-primary text-white">
+=======
+<div className="py-8 flex flex-wrap bg-6 items-center text-center">
+>>>>>>> f9b44063bbbbc2923d36d3de1c7b1e3d3f0f97bf
   <div className="sm:w-1/1 md:w-1/2">
     <h1 className="text-white">
       Scratch Theater
@@ -54,7 +58,11 @@ const ScratchPage = () => (
     </h3>
     </section>
 
+<<<<<<< HEAD
    <section className="md:w-2/3 px-1 pt-5 ">
+=======
+   <section className="md:w-2/3 px-1 pt-5 font-light">
+>>>>>>> f9b44063bbbbc2923d36d3de1c7b1e3d3f0f97bf
  
 
         <h3>Description</h3>
@@ -83,12 +91,20 @@ const ScratchPage = () => (
     </h3>
     </section>
 
+<<<<<<< HEAD
    <section className="md:w-2/3 px-1 pt-5 ">
+=======
+   <section className="md:w-2/3 px-1 pt-5 font-light">
+>>>>>>> f9b44063bbbbc2923d36d3de1c7b1e3d3f0f97bf
    
 <div className="flex flex-wrap">
 
   <div className="sm:w-1/2 md:w-1/2 lg:w-1/2">
+<<<<<<< HEAD
     <div className="plays text-center bg-primary text-white ">
+=======
+    <div className="plays text-center ">
+>>>>>>> f9b44063bbbbc2923d36d3de1c7b1e3d3f0f97bf
       <img src={zParty} />
       <h3>The Z-Party</h3>
       <p>Come to the Z-Party! A totally normal, not full of zombies party that you should definitely come to.</p>
@@ -100,7 +116,11 @@ const ScratchPage = () => (
 
 
   <div className="sm:w-1/2 md:w-1/2 lg:w-1/2">
+<<<<<<< HEAD
     <div className="plays text-center bg-primary text-white ">
+=======
+    <div className="plays text-center ">
+>>>>>>> f9b44063bbbbc2923d36d3de1c7b1e3d3f0f97bf
       <img src={katie}/>
       <h3>Everybody Loves Katie</h3>
       <p>A play written for my cousin, the eponymous Katie, for her birthday.</p>
@@ -112,7 +132,11 @@ const ScratchPage = () => (
 
 
  <div className="sm:w-1/2 md:w-1/2 lg:w-1/2">
+<<<<<<< HEAD
     <div className="plays text-center bg-primary text-white ">
+=======
+    <div className="plays text-center ">
+>>>>>>> f9b44063bbbbc2923d36d3de1c7b1e3d3f0f97bf
       <img src={zoo} />
       <h3>Life's a Zoo</h3>
       <p>Filming an animated movie about zoo animals can be tricky - especially when your nemeses arrive. </p>
@@ -124,7 +148,11 @@ const ScratchPage = () => (
 
 
   <div className="sm:w-1/2 md:w-1/2 lg:w-1/2">
+<<<<<<< HEAD
     <div className="plays text-center bg-primary text-white ">
+=======
+    <div className="plays text-center ">
+>>>>>>> f9b44063bbbbc2923d36d3de1c7b1e3d3f0f97bf
       <img src={fighters}/>
       <h3>The Fighters</h3>
       <p>2 fighters. 1 ring. Who will win?</p>
@@ -136,7 +164,11 @@ const ScratchPage = () => (
 
 
  <div className="sm:w-1/2 md:w-1/2 lg:w-1/2">
+<<<<<<< HEAD
     <div className="plays text-center bg-primary text-white ">
+=======
+    <div className="plays text-center ">
+>>>>>>> f9b44063bbbbc2923d36d3de1c7b1e3d3f0f97bf
       <img src={techiya2} />
       <h3>Techiya My World 2.0</h3>
       <p>International singing sensation Techiya must choose between her many suitors before a big concert.</p>
@@ -148,7 +180,11 @@ const ScratchPage = () => (
 
 
   <div className="sm:w-1/2 md:w-1/2 lg:w-1/2">
+<<<<<<< HEAD
     <div className="plays text-center bg-primary text-white ">
+=======
+    <div className="plays text-center ">
+>>>>>>> f9b44063bbbbc2923d36d3de1c7b1e3d3f0f97bf
       <img src={soccer}/>
       <h3>The Soccer Game</h3>
       <p>When Faye and her friends set out to play a soccer game, mayhem ensues and she must save her friends' lives.</p>
@@ -159,7 +195,11 @@ const ScratchPage = () => (
   </div>
 
   <div className="sm:w-1/2 md:w-1/2 lg:w-1/2">
+<<<<<<< HEAD
     <div className="plays text-center bg-primary text-white ">
+=======
+    <div className="plays text-center ">
+>>>>>>> f9b44063bbbbc2923d36d3de1c7b1e3d3f0f97bf
       <img src={dojo}/>
       <h3>The Dojo</h3>
       <p>When some hooligans interrupt their karate practice, Faye must defend her friends and save the day.</p>
@@ -183,11 +223,19 @@ const ScratchPage = () => (
     </h3>
     </section>
 
+<<<<<<< HEAD
    <section className="md:w-2/3 px-1 pt-5 ">
    
 <div className="flex flex-wrap">
   <div className="sm:w-1/2 md:w-1/2 lg:w-1/2">
     <div className="plays text-center bg-primary text-white bg-primary text-white">
+=======
+   <section className="md:w-2/3 px-1 pt-5 font-light">
+   
+<div className="flex flex-wrap">
+  <div className="sm:w-1/2 md:w-1/2 lg:w-1/2">
+    <div className="plays text-center ">
+>>>>>>> f9b44063bbbbc2923d36d3de1c7b1e3d3f0f97bf
       <img src={beiberCanada}/>
       <h3>Beiber Saves Canada</h3>
       <p>An attack on Canada. A concert in front of millions. What's a Canadian pop star to do?</p>
@@ -198,7 +246,11 @@ const ScratchPage = () => (
   </div>
 
   <div className="sm:w-1/2 md:w-1/2 lg:w-1/2">
+<<<<<<< HEAD
     <div className="plays text-center bg-primary text-white ">
+=======
+    <div className="plays text-center ">
+>>>>>>> f9b44063bbbbc2923d36d3de1c7b1e3d3f0f97bf
       <img src={techiyaWorld} />
       <h3>Techiya Saves The World</h3>
       <p>When an evil dictator threatens to take over the world, only one 16-year-old can save it.</p>
@@ -211,7 +263,11 @@ const ScratchPage = () => (
 
 
   <div className="sm:w-1/2 md:w-1/2 lg:w-1/2">
+<<<<<<< HEAD
     <div className="plays text-center bg-primary text-white ">
+=======
+    <div className="plays text-center ">
+>>>>>>> f9b44063bbbbc2923d36d3de1c7b1e3d3f0f97bf
       <img src={tea}/>
       <h3>The Best Tea Party</h3>
       <p>When a group of travelers finds themselves at the same bed and breakfast, they notice that not everything is as it seems.</p>
@@ -222,7 +278,11 @@ const ScratchPage = () => (
   </div>
 
   <div className="sm:w-1/2 md:w-1/2 lg:w-1/2">
+<<<<<<< HEAD
     <div className="plays text-center bg-primary text-white ">
+=======
+    <div className="plays text-center ">
+>>>>>>> f9b44063bbbbc2923d36d3de1c7b1e3d3f0f97bf
       <img src={prom} />
       <h3>The Prom Party</h3>
       <p>Rival schools must attend the same prom. Fun and dancing ensues.</p>
@@ -248,11 +308,19 @@ const ScratchPage = () => (
     </h3>
     </section>
 
+<<<<<<< HEAD
    <section className="md:w-2/3 px-1 pt-5 ">
    
 <div className="flex flex-wrap">
   <div className="sm:w-1/2 md:w-1/2 lg:w-1/2">
     <div className="plays text-center bg-primary text-white ">
+=======
+   <section className="md:w-2/3 px-1 pt-5 font-light">
+   
+<div className="flex flex-wrap">
+  <div className="sm:w-1/2 md:w-1/2 lg:w-1/2">
+    <div className="plays text-center ">
+>>>>>>> f9b44063bbbbc2923d36d3de1c7b1e3d3f0f97bf
       <img src={babes}/>
       <h3>Babes on Farms</h3>
       <p>A rag-tag group of actors have to put on a show and save a farm, all in one short summer. Inspired by the Mickey and Judy films and Summer Stock.</p>
@@ -263,7 +331,11 @@ const ScratchPage = () => (
   </div>
 
   <div className="sm:w-1/2 md:w-1/2 lg:w-1/2">
+<<<<<<< HEAD
     <div className="plays text-center bg-primary text-white ">
+=======
+    <div className="plays text-center ">
+>>>>>>> f9b44063bbbbc2923d36d3de1c7b1e3d3f0f97bf
       <img src={mercury} />
       <h3>Mercury's Messengers</h3>
       <p>Two brilliant teens take the adventure of a lifetime when they get transported into their very own video game. </p>
@@ -277,7 +349,11 @@ const ScratchPage = () => (
 
 
   <div className="sm:w-1/2 md:w-1/2 lg:w-1/2">
+<<<<<<< HEAD
     <div className="plays text-center bg-primary text-white ">
+=======
+    <div className="plays text-center ">
+>>>>>>> f9b44063bbbbc2923d36d3de1c7b1e3d3f0f97bf
       <img src={deadline}/>
       <h3>The Deadline</h3>
       <p>Dorothy Dot must fight off a rival newspaperwoman to get the scoop of the day and save her career.</p>
@@ -288,7 +364,11 @@ const ScratchPage = () => (
   </div>
 
   <div className="sm:w-1/2 md:w-1/2 lg:w-1/2">
+<<<<<<< HEAD
     <div className="plays text-center bg-primary text-white ">
+=======
+    <div className="plays text-center ">
+>>>>>>> f9b44063bbbbc2923d36d3de1c7b1e3d3f0f97bf
       <img src={hungry} />
       <h3>The Hungry Games</h3>
       <p>A super silly spoof of The Hunger Games.</p>
@@ -299,7 +379,11 @@ const ScratchPage = () => (
   </div>
 
     <div className="sm:w-1/2 md:w-1/2 lg:w-1/2">
+<<<<<<< HEAD
     <div className="plays text-center bg-primary text-white ">
+=======
+    <div className="plays text-center ">
+>>>>>>> f9b44063bbbbc2923d36d3de1c7b1e3d3f0f97bf
       <img src={debate}/>
       <h3>The Debate</h3>
       <p>A heated election. A contentious debate. Who will win and rule the great nation of Candyland?</p>

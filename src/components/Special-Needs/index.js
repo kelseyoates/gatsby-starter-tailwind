@@ -12,7 +12,11 @@ const SpecialNeeds = () => (
   <div className=" flex flex-wrap">
 
   <div className="xsm:w-1/1 sm:w-1/2 md:w-1/3 lg:w-1/3 xlg:w-1/3">
+<<<<<<< HEAD
     <div className="portfolio text-center bg-primary text-white">
+=======
+    <div className="portfolio text-center bg-1">
+>>>>>>> f9b44063bbbbc2923d36d3de1c7b1e3d3f0f97bf
       <img src={sarah}/>
       <h3>Sarah Sun & The Contest</h3>
       <p>a book about a stubborn, talented, all-around fabulous 14-year-old girl with Down Syndrome</p>
@@ -24,7 +28,11 @@ const SpecialNeeds = () => (
 
 
   <div className="xsm:w-1/1 sm:w-1/2 md:w-1/3 lg:w-1/3 xlg:w-1/3">
+<<<<<<< HEAD
     <div className="portfolio text-center bg-primary text-white">
+=======
+    <div className="portfolio text-center bg-1">
+>>>>>>> f9b44063bbbbc2923d36d3de1c7b1e3d3f0f97bf
       <img src={scratch} />
       <h3>Scratch Theater</h3>
       <p>a collection of plays for actors with special needs</p>
@@ -35,7 +43,11 @@ const SpecialNeeds = () => (
   </div>
 
   <div className="xsm:w-1/1 sm:w-1/2 md:w-1/3 lg:w-1/3 xlg:w-1/3">
+<<<<<<< HEAD
     <div className="portfolio text-center bg-primary text-white">
+=======
+    <div className="portfolio text-center bg-1">
+>>>>>>> f9b44063bbbbc2923d36d3de1c7b1e3d3f0f97bf
       <img src={pen} />
       <h3>Pen and Ink</h3>
       <p>a writing workshop</p>

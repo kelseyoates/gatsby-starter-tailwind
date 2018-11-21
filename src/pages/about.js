@@ -1,17 +1,28 @@
 import React from "react";
 import Link from "gatsby-link";
 import dog from "../images/dog.png";
+<<<<<<< HEAD
+=======
+import headphones from "../images/headphones.png";
+>>>>>>> f9b44063bbbbc2923d36d3de1c7b1e3d3f0f97bf
 import tennis from "../images/tennis.png";
 import bicycle from "../images/bicycle.png";
 import music from "../images/music.png";
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> f9b44063bbbbc2923d36d3de1c7b1e3d3f0f97bf
 const AboutPage = () => (
   <div>
 
    <div className="flex flex-col px-1 pt-10"> 
+<<<<<<< HEAD
     <h2 className="text-center">About Me</h2>
+=======
+    <h2 className="text-center hand purple">About Me</h2>
+>>>>>>> f9b44063bbbbc2923d36d3de1c7b1e3d3f0f97bf
     <p className="leading-loose text-center">
     Here's some info beyond my resume. If you'd like to know more about my work history and education, connect with me on  
       <a
@@ -24,7 +35,11 @@ const AboutPage = () => (
 
 <div className="pt-5 flex flex-wrap">
   <div className="sm:w-1/2 md:w-1/2 lg:w-1/4">
+<<<<<<< HEAD
     <div className="card bg-primary text-white">
+=======
+    <div className="card bg-1">
+>>>>>>> f9b44063bbbbc2923d36d3de1c7b1e3d3f0f97bf
     <img src={dog}/>
   <h3>Dogs</h3>
   <p className="text-left">
@@ -34,7 +49,11 @@ const AboutPage = () => (
   </div>
 
   <div className="sm:w-1/2 md:w-1/2 lg:w-1/4">
+<<<<<<< HEAD
     <div className="card bg-primary text-white">
+=======
+    <div className="card bg-1">
+>>>>>>> f9b44063bbbbc2923d36d3de1c7b1e3d3f0f97bf
     <img src={music}/>
   <h3>Musical Theater</h3>
   <p className="text-left">
@@ -44,7 +63,11 @@ const AboutPage = () => (
   </div>
 
   <div className="sm:w-1/2 md:w-1/2 lg:w-1/4">
+<<<<<<< HEAD
     <div className="card bg-primary text-white">
+=======
+    <div className="card bg-1">
+>>>>>>> f9b44063bbbbc2923d36d3de1c7b1e3d3f0f97bf
     <img src={bicycle} />
   <h3>SoulCycle</h3>
   <p className="text-left">
@@ -54,7 +77,11 @@ const AboutPage = () => (
   </div>
 
   <div className="sm:w-1/2 md:w-1/2 lg:w-1/4">
+<<<<<<< HEAD
     <div className="card bg-primary text-white">
+=======
+    <div className="card bg-1">
+>>>>>>> f9b44063bbbbc2923d36d3de1c7b1e3d3f0f97bf
     <img src={tennis} />
   <h3>Tennis</h3>
   <p className="text-left">
