@@ -1,0 +1,1795 @@
+/**
+ * This injects Tailwind's base styles, which is a combination of
+ * Normalize.css and some additional base styles.
+ *
+ * You can see the styles here:
+ * https://github.com/tailwindcss/tailwindcss/blob/master/css/preflight.css
+ *
+ * If using `postcss-import`, use this import instead:
+ *
+ * @import "tailwindcss/preflight";
+ */
+
+/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+
+
+@import url("https://use.typekit.net/ahe6icy.css");
+
+@import url('https://fonts.googleapis.com/css?family=Over+the+Rainbow|Sue+Ellen+Francisco');
+
+
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+      -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+
+body {
+  margin: 0;
+  
+}
+
+/**
+ * Add the correct display in IE 9-.
+ */
+
+
+nav {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in IE.
+ */
+
+/**
+ * Add the correct margin in IE 8.
+ */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+
+a {
+  background-color: transparent; /* 1 */
+  -webkit-text-decoration-skip: objects; /* 2 */
+
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 9-.
+ */
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+
+img {
+  border-style: none;
+}
+
+/**
+ * Hide the overflow in IE.
+ */
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+textarea {
+  font-family: sans-serif; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+html [type="button"],
+/* 1 */
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; /* 2 */
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+/**
+ * 1. Add the correct display in IE 9-.
+ * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ */
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+/* Scripting
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 9-.
+ */
+
+/**
+ * Add the correct display in IE.
+ */
+
+/* Hidden
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10-.
+ */
+
+[hidden] {
+  display: none;
+}
+
+/**
+ * Manually forked from SUIT CSS Base: https://github.com/suitcss/base
+ * A thin layer on top of normalize.css that provides a starting point more
+ * suitable for web applications.
+ */
+
+/**
+ * 1. Prevent padding and border from affecting element width
+ * https://goo.gl/pYtbK7
+ * 2. Change the default font family in all browsers (opinionated)
+ */
+
+html {
+  box-sizing: border-box; /* 1 */
+  font-family: sans-serif; /* 2 */
+  font-size: 16px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/**
+ * Removes the default spacing and border for appropriate elements.
+ */
+
+h1 {
+  font-size: 3em;
+  font-family: "objektiv-mk1",sans-serif;
+  font-style: normal;
+  color: #000;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.5em;
+  color: #bb246e;
+  font-family: "objektiv-mk1",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+}
+
+h3 {
+  font-family: "objektiv-mk1",sans-serif;
+  font-style: normal;
+}
+
+h4 {
+  font-size: 1.2em;
+  color: #bb246e;
+  font-family: "objektiv-mk1",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  margin-top: .25em;
+  margin-bottom: .25em;
+}
+
+h6 {
+  color: #858585;
+  font-family: "objektiv-mk1",sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  margin-top: 0;
+  text-align: center;
+}
+
+p {
+  line-height: 1.5em;
+  padding-bottom: .5em;
+  font-family: acumin-pro-condensed, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+
+
+.hand {
+  font-family: "Over the Rainbow", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.black {
+  color: #000;
+}
+
+.purple {
+  color: #bb246e;
+}
+
+.inverse {
+      color: #f1f5f8;
+    background-color: #bb246e;
+    border-style: solid;
+    border-color: #5e6990;
+    /* border-width: 4px; */
+    border-radius: 25px;
+    padding: .8em;
+}
+
+.footer {
+  color: #bb246e;
+  font-weight: 300;
+}
+
+.footer > a {
+  color: #3d4852;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+
+button {
+  background: transparent;
+  padding: 0;
+}
+
+/**
+ * Work around a Firefox/IE bug where the transparent `button` background
+ * results in a loss of the default `button` focus styles.
+ */
+
+button:focus {
+  outline: 1px dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+
+/**
+ * Tailwind custom reset styles
+ */
+
+/**
+ * Allow adding a border to an element by just adding a border-width.
+ *
+ * By default, the way the browser specifies that an element should have no
+ * border is by setting it's border-style to `none` in the user-agent
+ * stylesheet.
+ *
+ * In order to easily add borders to elements by just setting the `border-width`
+ * property, we change the default border-style for all elements to `solid`, and
+ * use border-width to hide them instead. This way our `border` utilities only
+ * need to set the `border-width` property instead of the entire `border`
+ * shorthand, making our border utilities much more straightforward to compose.
+ *
+ * https://github.com/tailwindcss/tailwindcss/pull/116
+ */
+
+*,
+*::before,
+*::after {
+  border-width: 0;
+  border-style: solid;
+  border-color: #dae1e7;
+}
+
+/**
+ * Undo the `border-style: none` reset that Normalize applies to images so that
+ * our `border-{width}` utilities have the expected effect.
+ *
+ * The Normalize reset is unnecessary for us since we default the border-width
+ * to 0 on all elements.
+ *
+ * https://github.com/tailwindcss/tailwindcss/issues/362
+ */
+
+img {
+  border-style: solid;
+}
+
+/**
+ * Temporary reset for a change introduced in Chrome 62 but now reverted.
+ *
+ * We can remove this when the reversion is in a normal Chrome release.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  border-radius: 0;
+}
+
+textarea {
+  resize: vertical;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button,
+input,
+textarea {
+  font-family: inherit;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: inherit;
+  opacity: .5;
+}
+
+button,
+[role=button] {
+  cursor: pointer;
+}
+
+
+
+
+
+/* Scratch Theater and Sarah Sun */
+
+p.about {
+  padding: 0;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+  line-height: 2em;
+  color: #384452;
+  margin-top: 10px;
+}
+
+p.character {
+
+margin-top: 2em;
+margin-bottom: 1em;
+color: #bb246e;
+margin-left: 40%;
+text-transform: uppercase;
+
+}
+
+
+.jess7 {
+color: #fff;
+font-size: 1.5em;
+line-height: 1.5;
+-webkit-font-smoothing: antialiased;
+}
+
+.jess1 {
+font-family: 'Sue Ellen Francisco', fantasy;
+color: #EC9F28;
+font-size: 1.5em;
+line-height: 1.5;
+-webkit-font-smoothing: antialiased;
+}
+
+.jess2 {
+font-family: 'Sue Ellen Francisco', fantasy;
+color: #DF3973;
+font-size: 1.5em;
+line-height: 1.5;
+-webkit-font-smoothing: antialiased;
+}
+
+.jess3 {
+font-family: 'Sue Ellen Francisco', fantasy;
+color: #20A0BC;
+font-size: 1.5em;
+line-height: 1.5;
+-webkit-font-smoothing: antialiased;
+}
+
+.jess5 {
+font-family: 'Sue Ellen Francisco', fantasy;
+color: #20A0BC;
+text-align: right;
+font-size: 1.5em;
+text-transform: none;
+line-height: 1.5;
+-webkit-font-smoothing: antialiased;
+}
+
+.jess1d {
+color: #EC9F28;
+line-height: 1.5;
+-webkit-font-smoothing: antialiased;
+}
+
+.jess2d {
+color: #DF3973;
+line-height: 1.5;
+-webkit-font-smoothing: antialiased;
+}
+
+.jess3d {
+color: #20A0BC;
+line-height: 1.5;
+-webkit-font-smoothing: antialiased;
+}
+
+.jess5d {
+color: #20A0BC;
+text-align: right;
+line-height: 1.5;
+-webkit-font-smoothing: antialiased;
+}
+
+.chapter {
+font-family: 'Poppins', sans-serif;
+color: #e25e75;
+line-height: 1;
+-webkit-font-smoothing: antialiased;
+}
+
+.cross {
+text-decoration: line-through;
+line-height: 1;
+-webkit-font-smoothing: antialiased;
+}
+
+.thought {
+color: #168899;
+line-height: 25px;
+-webkit-font-smoothing: antialiased;
+}
+
+.character-list {
+line-height: 30px;
+font-size: 15px;
+margin-bottom: 0;
+margin-left: 45%;
+orphans: 1;
+text-align: center;
+text-transform: uppercase;
+display: table;
+}
+
+.Explanation {
+line-height: 2;
+margin-bottom: 15px;
+margin-left: 0;
+margin-right: 0;
+margin-top: 30px;
+orphans: 1;
+text-align: left;
+text-indent: 0;
+widows: 1;
+display: table;
+}
+
+
+.parenthetical {
+  font-style: italic;
+}
+
+.info {
+  color:#9384ee;
+}
+
+.Scratch {
+line-height: 2;
+margin-bottom: 3em;
+margin-left: 0;
+margin-right: 0;
+margin-top: 20px;
+text-align: left;
+
+}
+
+.setting {
+font-size: 15px;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+line-height: 2;
+margin-bottom: 5px;
+margin-left: 0;
+margin-right: 0;
+margin-top: 0;
+orphans: 1;
+page-break-after: auto;
+page-break-before: auto;
+text-align: left;
+text-decoration: none;
+text-indent: 0;
+text-transform: none;
+widows: 1;
+display: table;
+}
+
+.stage {
+font-size: 15px;
+font-style: italic;
+font-variant: normal;
+font-weight: normal;
+line-height: 1.667;
+margin-bottom: 15px;
+margin-left: 35px;
+margin-right: 0;
+margin-top: 20px;
+orphans: 1;
+page-break-after: auto;
+page-break-before: auto;
+text-align: left;
+text-decoration: none;
+text-indent: 0;
+text-transform: none;
+widows: 1;
+display: table;
+}
+
+.TOC {
+font-size: 12px;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+line-height: 1.667;
+margin-bottom: 5px;
+margin-left: 0;
+margin-right: 0;
+margin-top: 0;
+orphans: 1;
+page-break-after: auto;
+page-break-before: auto;
+text-align: justify;
+text-align-last: right;
+text-decoration: underline;
+text-indent: 0;
+text-transform: uppercase;
+widows: 1;
+}
+
+.Title {
+font-size: 20px;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+line-height: 2;
+margin-bottom: 5px;
+margin-left: 0;
+margin-right: 0;
+margin-top: 100px;
+orphans: 1;
+page-break-after: auto;
+page-break-before: auto;
+text-align: center;
+text-decoration: none;
+text-indent: 0;
+text-transform: uppercase;
+widows: 1;
+display: table;
+}
+
+/* .character {
+font-size: 15px;
+margin-left: 40%;
+margin-top: 3em;
+
+text-align: center;
+text-indent: 0;
+text-transform: uppercase;
+
+color: #5b32b4;
+} */
+
+upurple {
+border-bottom: 2px inset #EC9F28;
+}
+
+upink {
+border-bottom: 2px inset #DF3973;
+}
+
+ublue {
+border-bottom: 2px inset #20A0BC;
+}
+
+
+/**
+  * This injects any component classes registered by plugins.
+  *
+  * If using `postcss-import`, use this import instead:
+  *
+  * @import "tailwindcss/components";
+  */
+
+/**
+  * Here you would add any of your custom component classes; stuff that you'd
+  * want loaded *before* the utilities so that the utilities could still
+  * override them.
+  *
+  * Example:
+  *
+  * .btn { ... }
+  * .form-input { ... }
+  *
+  * Or if using a preprocessor or `postcss-import`:
+  *
+  * @import "components/buttons";
+  * @import "components/forms";
+  */
+
+/**
+  * This injects all of Tailwind's utility classes, generated based on your
+  * config file.
+  *
+  * If using `postcss-import`, use this import instead:
+  *
+  * @import "tailwindcss/utilities";
+  */
+
+.appearance-none {
+  appearance: none;
+}
+
+
+.bg-white {
+  background-color: #fff;
+}
+
+.bg-dark-purple {
+  background-color: #5e6990;
+}
+
+.bg-grey-dark {
+  background-color: #8795a1;
+}
+
+.bg-grey-lighter {
+  background-color: #f1f5f8;
+}
+
+.bg-yellow {
+  background-color: #ffed4a;
+}
+
+.bg-light-purple {
+  background-color: #9384ee;
+}
+
+.bg-purple {
+  background-color:#403681;
+}
+
+.bg-light-pink {
+  background-color: #fbccd4;
+}
+
+.bg-primary {
+  background-color: #bb246e;
+}
+
+.bg-map {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/459919/bso-blue.png");
+  background-position: bottom center;
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.bg-bso {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/459919/bso-header.png");
+  background-position: bottom center;
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.bg-homee {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/459919/henry-co-180108-unsplash%20(1).jpg");
+  background-position: bottom center;
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+
+.bg-1 {
+  background-color: #d2d4dc;
+}
+
+.bg-2 {
+  background-color: #afafaf;
+}
+
+
+.bg-3 {
+  background-color: #f8f8fa;
+}
+
+.bg-4 {
+  background-color: #e5e6eb;
+}
+
+
+.bg-5 {
+  background-color: #c0c2ce;
+}
+
+.bg-6 {
+  background-color: #bb246e;
+  ;
+}
+
+
+.bg-7 {
+  background-color: #d0ccea;
+}
+
+.bg-8 {
+  background-color: #ffed4a;
+}
+
+
+.bg-9 {
+  background-color: #B3C2F2;
+}
+
+.bg-10 {
+  background-color: #34D1BF;
+}
+
+
+.bg-11 {
+  background-color: #D1345B;
+}
+
+.bg-12 {
+  background-color: #ffed4a;
+}
+
+
+.hover\:bg-pink:hover {
+  background-color: #df1183;
+}
+
+
+.hover\:bg-grey:hover {
+  background-color: #b8c2cc;
+}
+
+.border-grey-darkest {
+  border-color: #3d4852;
+}
+
+.border-grey-darker {
+  border-color: #606f7b;
+}
+
+.border-white {
+  border-color: #fff;
+}
+
+.hover\:border-grey-dark:hover {
+  border-color: #8795a1;
+}
+
+.rounded {
+  border-radius: .25rem;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-b-4 {
+  border-bottom-width: 4px;
+}
+
+.border-l-4 {
+  border-left-width: 4px;
+}
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.hidden {
+  display: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.items-top {
+align-items: flex-start;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.font-sans {
+  font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.font-serif {
+  font-family: rooney-web, serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+strong {
+  font-weight: 500;
+}
+
+.font-light > p {
+  font-weight: 300;
+}
+
+
+.h-3 {
+  height: .75rem;
+}
+
+.h-8 {
+  height: 2rem;
+}
+
+.h-20 {
+  height: 20rem;
+}
+
+
+hr {
+  border-top: 2px solid #bb246e;
+  width: 300px;
+  margin-bottom: 3em;
+
+}
+
+
+img.card {
+  max-width: 100%;
+  height: auto;
+  border-radius: 3px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
+}
+
+img.app {
+  max-width: 300px;
+  height: auto;
+}
+
+img.top {
+  padding: 1em;
+}
+
+img.plays {
+  max-width: 300px;
+  height: auto;
+}
+
+
+
+
+.portfolio {
+  margin:.5em;
+  border-radius: 2px;
+ 
+}
+
+
+.portfolio > h3 {
+  font-weight: 700;
+  font-size: 1.2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  /* color: #fff; */
+}
+
+.portfolio > p {
+  font-weight: 300;
+  font-size: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.portfolio > img {
+  max-height: 200px;
+  padding-top: 1em;
+}
+
+.about {
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  margin:.5em;
+  border-radius: 3px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .10);
+}
+.about > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1em;
+  max-height: 200px;
+}
+
+
+.about > h3 {
+  font-weight: 700;
+  font-size: 1.2em;
+  /* color: #fff; */
+  text-align: center;
+}
+
+.about > p {
+  font-weight: 400;
+  font-size: 1em;
+  /* color: #fff; */
+}
+
+
+.card {
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  margin:.5em;
+  border-radius: 3px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .10);
+  text-align: center;
+}
+
+.card > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1em;
+  max-height: 200px;
+}
+
+
+.card > h3 {
+  font-weight: 700;
+  font-size: 1.2em;
+  /* color: #fff; */
+}
+
+.card > p {
+  font-weight: 300;
+ 
+}
+
+
+
+.plays {
+  /* padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em; */
+  margin:.5em;
+  border-radius: 3px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .10);
+  border-style: solid;
+  border-width: 1px;
+  border-color: #f1f1f1;
+}
+
+
+.plays > h3 {
+  font-weight: 700;
+  font-size: 1.2em;
+  /* color: #fff; */
+}
+
+.plays > p {
+  font-weight: 300;
+  font-size: 1em;
+  text-align: left;
+  padding: 1em;
+}
+
+/* .plays > img {
+  max-height: 200px;
+} */
+
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+card {
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 1.5em;
+  margin:.5em;
+  z-index: 2;
+  
+}
+
+
+card.about {
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 1em;
+  box-shadow: 0 10px 90px rgba(0, 0, 0, 0.08);
+  background-color: #fff;
+  border: 2px solid #fff;
+  margin:.5em;
+  z-index: 2;
+}
+
+
+card.portfolio {
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 1em;
+  box-shadow: 0 10px 90px rgba(0, 0, 0, 0.08);
+  background-color: #fff;
+  border: 2px solid #fff;
+  margin:.5em;
+  z-index: 2;
+}
+
+
+card > h4 {
+  text-align: center;
+}
+
+card > p {
+  font-weight: 300;
+}
+
+
+img.small {
+  max-width: 75px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1em;
+}
+
+
+img.medium {
+  max-width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1em;
+}
+
+img.shadow {
+  border-radius: 3px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .10);
+}
+
+
+
+img.header {
+  z-index: 0;
+}
+
+
+
+.leading-loose {
+  line-height: 1;
+}
+
+.lh {
+  line-height: 1.5;
+}
+
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.my-9 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mr-2 {
+  margin-right: .5rem;
+}
+
+.mb-2 {
+  margin-bottom: .5rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-5 {
+  margin-top: 5rem;
+}
+
+.mt-10 {
+  margin-top: 10rem;
+}
+
+
+.mr-6 {
+  margin-right: 1.5rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.max-w-xl {
+  max-width: 60rem;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.p-3 {
+  padding: .75rem;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.py-2 {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+.py-3 {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+}
+
+.my-3 {
+  margin-top: .75rem;
+  margin-bottom: .75rem;
+}
+
+
+.px-3 {
+  padding-left: .75rem;
+  padding-right: .75rem;
+}
+
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.px-8 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.pl-4 {
+  padding-left: 1rem;
+}
+
+.pl-5 {
+  padding-left: 5rem;
+}
+
+.pt-5 {
+  padding-top: 5rem;
+}
+
+
+.pt-10 {
+  padding-top: 10rem;
+}
+
+
+
+.fill-current {
+  fill: currentColor;
+}
+
+.text-left {
+  text-align: left;
+}
+
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-grey-darkest {
+  color: #3d4852;
+}
+
+.text-grey-darker {
+  color: #606f7b;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-xs {
+  font-size: .75rem;
+}
+
+.text-sm {
+  font-size: .875rem;
+  font-family: "objektiv-mk1",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.tracking-tight {
+  letter-spacing: -0.05em;
+}
+
+.w-3 {
+  width: .75rem;
+}
+
+.w-8 {
+  width: 2rem;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-1\/4 {
+  width: 25%;
+}
+
+
+.w-2\/3 {
+  width: 66.66667%;
+}
+
+.w-full {
+  width: 100%;
+}
+
+/**
+  * Here you would add any custom utilities you need that don't come out of the
+  * box with Tailwind.
+  *
+  * Example :
+  *
+  * .bg-pattern-graph-paper { ... }
+  * .skew-45 { ... }
+  *
+  * Or if using a preprocessor or `postcss-import`:
+  *
+  * @import "utilities/background-patterns";
+  * @import "utilities/skew-transforms";
+  */
+
+
+  @media (min-width: 300px) {
+
+    .xsm\:w-1\/1 {
+      width: 100%;
+    }
+    .xsm\:w-1\/2 {
+      width: 50%;
+    }
+    
+    .xsm\:w-1\/3 {
+      width: 33.33333%;
+    }
+    
+    .xsm\:w-2\/3 {
+      width: 66.66667%;
+    }
+    
+    .px-1 {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+
+    .px-2 {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+
+
+    .pt-5 {
+      padding-top: 1rem;
+    }
+
+    .pt-10 {
+      padding-top: 5rem;
+    }
+
+
+    h1 {
+      font-size: 2em;
+      font-weight: 700;
+    }
+    
+    h3.small {
+      font-size: 1.5em;
+      font-weight: 700;
+      background-color: #d0ccea;
+    }
+    
+    h3 {
+      font-size: 1em;
+      font-weight: 700;
+  }
+  
+    
+  }
+
+
+
+
+@media (min-width: 576px) {
+  .sm\:w-1\/1 {
+    width: 100%;
+  }
+
+.sm\:w-1\/2 {
+  width: 50%;
+}
+
+.sm\:w-1\/3 {
+  width: 33.33333%;
+}
+
+.sm\:w-2\/3 {
+  width: 66.66667%;
+}
+.px-1 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.px-2 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.pt-5 {
+  padding-top: 2rem;
+}
+
+.pt-10 {
+  padding-top: 10rem;
+}
+
+
+}
+
+@media (min-width: 850px) {
+
+  h1 {
+    font-size: 3em;
+    font-family: "objektiv-mk1",sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-style: normal;
+    color: #000;
+  }
+
+  h3.small {
+    font-size: 1em;
+    font-weight: 700;
+  }
+  
+  h3 {
+      font-size: 1em;
+      font-weight: 700;
+  }
+  
+  .px-1 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .px-2 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  
+  .pt-5 {
+    padding-top: 2rem;
+  }
+  .pt-10 {
+    padding-top: 10rem;
+  }
+  
+  
+
+.md\:inline-block {
+  display: inline-block;
+}
+
+.md\:hidden {
+  display: none;
+}
+
+.md\:flex {
+  display: flex;
+}
+
+.md\:flex-row {
+  flex-direction: row;
+}
+
+.md\:items-center {
+  align-items: center;
+}
+
+.md\:justify-center {
+  justify-content: center;
+}
+
+.md\:mt-0 {
+  margin-top: 0;
+}
+
+.md\:mr-8 {
+  margin-right: 2rem;
+}
+
+.md\:p-8 {
+  padding: 2rem;
+}
+
+.md\:w-auto {
+  width: auto;
+}
+
+.md\:w-1\/2 {
+  width: 50%;
+}
+
+.md\:w-1\/4 {
+  width: 25%;
+}
+
+.md\:w-1\/3 {
+  width: 33.33333%;
+}
+
+.md\:w-2\/3 {
+  width: 66.66667%;
+}
+
+
+}
+
+@media (min-width: 992px) {
+
+  .px-2 {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+
+  .lg\:w-1\/2 {
+    width: 50%;
+  }
+
+   
+  .lg\:w-1\/4 {
+    width: 25%;
+  }
+
+  .lg\:w-1\/3 {
+    width: 33.33333%;
+  }
+  
+  .lg\:w-2\/3 {
+    width: 66.66667%;
+}
+}
+
+@media (min-width: 1400px) {
+  .xlg\:w-1\/2 {
+    width: 50%;
+  }
+
+   
+  .xlg\:w-1\/4 {
+    width: 25%;
+  }
+
+  .xlg\:w-1\/3 {
+    width: 33.33333%;
+  }
+  
+  .xlg\:w-2\/3 {
+    width: 66.66667%;
+}
+}
