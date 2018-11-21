@@ -15,11 +15,7 @@ const Header = () => {
       <div className="flex flex-wrap items-center justify-between max-w-xl mx-auto p-4">
         <Link to="/" className="flex items-center no-underline ">
          
-<<<<<<< HEAD
           <span className="font-bold text-xl tracking-tight purple">
-=======
-          <span className="font-bold text-xl tracking-tight hand purple">
->>>>>>> f9b44063bbbbc2923d36d3de1c7b1e3d3f0f97bf
             K/O
           </span>
         </Link>

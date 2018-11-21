@@ -378,11 +378,7 @@ h1 {
 
 h2 {
   font-size: 2.5em;
-<<<<<<< HEAD
   color: #bb246e;
-=======
-  color: #5d47e5;
->>>>>>> f9b44063bbbbc2923d36d3de1c7b1e3d3f0f97bf
   font-family: "objektiv-mk1",sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -396,11 +392,7 @@ h3 {
 
 h4 {
   font-size: 1.2em;
-<<<<<<< HEAD
   color: #bb246e;
-=======
-  color: #8170eb;
->>>>>>> f9b44063bbbbc2923d36d3de1c7b1e3d3f0f97bf
   font-family: "objektiv-mk1",sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -423,11 +415,7 @@ p {
   padding-bottom: .5em;
   font-family: acumin-pro-condensed, sans-serif;
   font-style: normal;
-<<<<<<< HEAD
   font-weight: 300;
-=======
-  font-weight: 400;
->>>>>>> f9b44063bbbbc2923d36d3de1c7b1e3d3f0f97bf
 }
 
 
@@ -443,20 +431,12 @@ p {
 }
 
 .purple {
-<<<<<<< HEAD
   color: #bb246e;
-=======
-  color: #4B33E3;
->>>>>>> f9b44063bbbbc2923d36d3de1c7b1e3d3f0f97bf
 }
 
 .inverse {
       color: #f1f5f8;
-<<<<<<< HEAD
     background-color: #bb246e;
-=======
-    background-color: #4b33e3;
->>>>>>> f9b44063bbbbc2923d36d3de1c7b1e3d3f0f97bf
     border-style: solid;
     border-color: #5e6990;
     /* border-width: 4px; */
@@ -465,11 +445,7 @@ p {
 }
 
 .footer {
-<<<<<<< HEAD
   color: #bb246e;
-=======
-  color: #4B33E3;
->>>>>>> f9b44063bbbbc2923d36d3de1c7b1e3d3f0f97bf
   font-weight: 300;
 }
 
@@ -595,11 +571,7 @@ p.character {
 
 margin-top: 2em;
 margin-bottom: 1em;
-<<<<<<< HEAD
 color: #bb246e;
-=======
-color: #5d47e5;
->>>>>>> f9b44063bbbbc2923d36d3de1c7b1e3d3f0f97bf
 margin-left: 40%;
 text-transform: uppercase;
 
@@ -609,10 +581,6 @@ text-transform: uppercase;
 .jess7 {
 color: #fff;
 font-size: 1.5em;
-<<<<<<< HEAD
-=======
-speak: none;
->>>>>>> f9b44063bbbbc2923d36d3de1c7b1e3d3f0f97bf
 line-height: 1.5;
 -webkit-font-smoothing: antialiased;
 }
@@ -621,10 +589,6 @@ line-height: 1.5;
 font-family: 'Sue Ellen Francisco', fantasy;
 color: #EC9F28;
 font-size: 1.5em;
-<<<<<<< HEAD
-=======
-speak: none;
->>>>>>> f9b44063bbbbc2923d36d3de1c7b1e3d3f0f97bf
 line-height: 1.5;
 -webkit-font-smoothing: antialiased;
 }
@@ -917,7 +881,6 @@ border-bottom: 2px inset #20A0BC;
   background-color:#403681;
 }
 
-<<<<<<< HEAD
 .bg-light-pink {
   background-color: #fbccd4;
 }
@@ -926,8 +889,6 @@ border-bottom: 2px inset #20A0BC;
   background-color: #bb246e;
 }
 
-=======
->>>>>>> f9b44063bbbbc2923d36d3de1c7b1e3d3f0f97bf
 .bg-map {
   background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/459919/bso-blue.png");
   background-position: bottom center;
@@ -942,7 +903,6 @@ border-bottom: 2px inset #20A0BC;
     background-repeat: repeat;
 }
 
-<<<<<<< HEAD
 .bg-homee {
   background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/459919/henry-co-180108-unsplash%20(1).jpg");
   background-position: bottom center;
@@ -950,8 +910,6 @@ border-bottom: 2px inset #20A0BC;
     background-repeat: repeat;
 }
 
-=======
->>>>>>> f9b44063bbbbc2923d36d3de1c7b1e3d3f0f97bf
 
 .bg-1 {
   background-color: #d2d4dc;
@@ -976,11 +934,7 @@ border-bottom: 2px inset #20A0BC;
 }
 
 .bg-6 {
-<<<<<<< HEAD
   background-color: #bb246e;
-=======
-  background-color: #5d47e5;
->>>>>>> f9b44063bbbbc2923d36d3de1c7b1e3d3f0f97bf
   ;
 }
 
@@ -1130,11 +1084,7 @@ strong {
 
 
 hr {
-<<<<<<< HEAD
   border-top: 2px solid #bb246e;
-=======
-  border-top: 2px solid #4B33E3;
->>>>>>> f9b44063bbbbc2923d36d3de1c7b1e3d3f0f97bf
   width: 300px;
   margin-bottom: 3em;
 
@@ -1842,8 +1792,4 @@ img.header {
   .xlg\:w-2\/3 {
     width: 66.66667%;
 }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> f9b44063bbbbc2923d36d3de1c7b1e3d3f0f97bf

@@ -8,11 +8,7 @@ const SeniorsPage = () => (
   <div>
 
    <div className="flex flex-col"> 
-<<<<<<< HEAD
     <h2 className="text-center">Tech Help for Seniors</h2>
-=======
-    <h2 className="text-center hand purple">Tech Help for Seniors</h2>
->>>>>>> f9b44063bbbbc2923d36d3de1c7b1e3d3f0f97bf
     <p className="leading-loose text-center">
     I provide one-on-one technology help for seniors. I can meet you at your preferred location, be it a local library or your home. 
     </p>
