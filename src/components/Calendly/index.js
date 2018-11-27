@@ -27,18 +27,18 @@ const Calendly = () => (
      <h3>One-on-One (1hr)</h3>
      <p>We'll meet at the location of your choice.</p>
      <a href="https://calendly.com/kelseyoates/one-on-one" target="blank" className="text-center no-underline">
-           <button className="border-grey-darker hover:border-grey-dark bg-dark-purple hover:bg-pink font-bold px-6 py-3 rounded text-sm text-white">View schedule</button></a>
+          <button>View schedule</button></a>
  
    </div>
  </div>
 
   <div className="xsm:w-1/1 sm:w-1/2 md:w-1/2 lg:w-1/4">
-   <div className="card bg-primary text-white">
+   <div className="card">
    <img src={two} />
  <h3>One-on-One (2hrs)</h3>
  <p>We'll meet at the location of your choice.</p>
    <a href="https://calendly.com/kelseyoates/one-on-one-2-hrs" target="blank" className="text-center no-underline">
-           <button className="border-grey-darker hover:border-grey-dark bg-dark-purple hover:bg-pink font-bold px-6 py-3 rounded text-sm text-white">View schedule</button></a>
+          <button>View schedule</button></a>
    </div>
  </div>
 
@@ -49,19 +49,19 @@ const Calendly = () => (
  <p>I'll call you.</p>
 
    <a href="https://calendly.com/kelseyoates/phone-call" target="blank" className="text-center no-underline">
-           <button className="border-grey-darker hover:border-grey-dark bg-dark-purple hover:bg-pink font-bold px-6 py-3 rounded text-sm text-white">View schedule</button></a>
+          <button>View schedule</button></a>
    </div>
  </div>
 
 
 
  <div className="xsm:w-1/1 sm:w-1/2 md:w-1/2 lg:w-1/4">
-   <div className="card bg-primary text-white">
+   <div className="card">
    <img src={video} />
  <h3>Video Chat</h3>
  <p>I use Google Hangouts and Skype.</p>
  <a href="https://calendly.com/kelseyoates/video-chat" target="blank" className="text-center no-underline">
-           <button className="border-grey-darker hover:border-grey-dark bg-dark-purple hover:bg-pink font-bold px-6 py-3 rounded text-sm text-white">View schedule</button></a>
+          <button>View schedule</button></a>
    </div>
  </div>
 

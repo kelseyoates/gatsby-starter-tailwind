@@ -15,7 +15,7 @@ const Header = () => {
       <div className="flex flex-wrap items-center justify-between max-w-xl mx-auto p-4">
         <Link to="/" className="flex items-center no-underline ">
          
-          <span className="font-bold text-xl tracking-tight purple">
+          <span className="font-bold text-xl tracking-tight ">
             K/O
           </span>
         </Link>
@@ -41,34 +41,34 @@ const Header = () => {
           <div className="text-sm">
             <Link
               to="/"
-              className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline purple"
+              className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline "
             >
               Home
             </Link>
 
             <Link
               to="/about"
-              className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline purple"
+              className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline "
             >
               About
             </Link>
 
              <Link
               to="/seniors"
-              className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline purple"
+              className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline "
             >
               Seniors
             </Link>
 
             <Link
               to="/design"
-              className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline purple"
+              className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline "
             >
               UX Design
             </Link>
             <Link
               to="/communications"
-              className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline purple"
+              className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline "
             >
               Communications
             </Link>
@@ -76,7 +76,7 @@ const Header = () => {
 
             <Link
               to="/special-needs"
-              className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline purple"
+              className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline "
             >
               Special Needs
             </Link>

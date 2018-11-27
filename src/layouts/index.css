@@ -23,7 +23,7 @@
    ========================================================================== */
 
 /**
- * 1. Correct the line height in all browsers.
+ * 1. Correct t#c37d4fhe line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
@@ -93,7 +93,7 @@ nav {
 a {
   background-color: transparent; /* 1 */
   -webkit-text-decoration-skip: objects; /* 2 */
-
+  color: #c37d4f;
 }
 
 /**
@@ -169,7 +169,7 @@ svg:not(:root) {
 button,
 input,
 textarea {
-  font-family: sans-serif; /* 1 */
+  font-family: acumin-pro-condensed, sans-serif;
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
@@ -218,7 +218,7 @@ button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
 [type="submit"]::-moz-focus-inner {
-  border-style: none;
+  /* border-style: none; */
   padding: 0;
 }
 
@@ -372,13 +372,13 @@ h1 {
   font-size: 3em;
   font-family: "objektiv-mk1",sans-serif;
   font-style: normal;
-  color: #000;
+  color: #823303;
   font-weight: 700;
 }
 
 h2 {
   font-size: 2.5em;
-  color: #bb246e;
+  color: #823303;
   font-family: "objektiv-mk1",sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -388,11 +388,12 @@ h2 {
 h3 {
   font-family: "objektiv-mk1",sans-serif;
   font-style: normal;
+  color: #823303;
 }
 
 h4 {
   font-size: 1.2em;
-  color: #bb246e;
+  color: #c37d4f;
   font-family: "objektiv-mk1",sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -419,7 +420,6 @@ p {
 }
 
 
-
 .hand {
   font-family: "Over the Rainbow", sans-serif;
   font-style: normal;
@@ -434,31 +434,45 @@ p {
   color: #bb246e;
 }
 
+.gold {
+  color: #823303;
+}
+
+.light-gold {
+  color: #c37d4f;
+}
+
 .inverse {
-      color: #f1f5f8;
-    background-color: #bb246e;
+    color: #f1f5f8;
+    background-color: #c37d4f;
     border-style: solid;
-    border-color: #5e6990;
-    /* border-width: 4px; */
     border-radius: 25px;
     padding: .8em;
 }
 
 .footer {
-  color: #bb246e;
+  color: #c37d4f;
   font-weight: 300;
 }
 
 .footer > a {
-  color: #3d4852;
+  color: #c37d4f;
   font-weight: 400;
   text-decoration: none;
 }
 
 
 button {
-  background: transparent;
-  padding: 0;
+  background-color: #c37d4f;
+  color: #fff;
+  font-size: .875rem;
+  font-family: "objektiv-mk1",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  padding: .7em;
+  border-style: solid;
+  border-color: inherit;
+  border-radius: 2px;
 }
 
 /**
@@ -469,6 +483,11 @@ button {
 button:focus {
   outline: 1px dotted;
   outline: 5px auto -webkit-focus-ring-color;
+}
+
+button:hover {
+  background-color: #354453;
+  font-weight: 600;
 }
 
 /**
@@ -519,12 +538,12 @@ img {
  * We can remove this when the reversion is in a normal Chrome release.
  */
 
-button,
+/* button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
-  border-radius: 0;
-}
+  border-radius: inherit;
+} */
 
 textarea {
   resize: vertical;
@@ -535,10 +554,12 @@ img {
   height: auto;
 }
 
-button,
 input,
 textarea {
-  font-family: inherit;
+  font-size: .875rem;
+  font-family: "objektiv-mk1",sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 input::placeholder,
@@ -882,12 +903,27 @@ border-bottom: 2px inset #20A0BC;
 }
 
 .bg-light-pink {
-  background-color: #fbccd4;
+  background-color: #ebeaee;
 }
 
+
 .bg-primary {
-  background-color: #bb246e;
+  background-color: #c37d4f;
 }
+.bg-scratch {
+  background-color: #823303;
+}
+
+
+.bg-index {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/459919/plush-design-studio-1129976-unsplash.jpg");
+  background-position: bottom center;
+    background-size: cover;
+    background-repeat: repeat;
+    height: 100vh;
+}
+
+
 
 .bg-map {
   background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/459919/rawpixel-611110-unsplash.jpg");
@@ -964,6 +1000,30 @@ border-bottom: 2px inset #20A0BC;
 .bg-12 {
   background-color: #ffed4a;
 }
+
+#diamond {
+  width: 120px;
+  height: 120px;
+  background: #1eff00;
+/* Rotate */
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+/* Rotate Origin */
+  -webkit-transform-origin: 0 100%;
+  -moz-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  -o-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+  margin: 60px 0 10px 310px;
+}
+
+.hover\:bg-light-gold:hover {
+  background-color: #ec9f28;
+}
+
 
 
 .hover\:bg-pink:hover {
@@ -1084,7 +1144,7 @@ strong {
 
 
 hr {
-  border-top: 2px solid #bb246e;
+  border-top: 2px solid #823303;
   width: 300px;
   margin-bottom: 3em;
 
@@ -1116,9 +1176,10 @@ img.plays {
 
 
 .portfolio {
-  margin:.5em;
-  border-radius: 2px;
- 
+  border-right-color: #c37d4f;
+  border-right-width: 2px;
+  border-top-color: #c37d4f;
+  border-top-width: 2px;
 }
 
 
@@ -1127,6 +1188,7 @@ img.plays {
   font-size: 1.2em;
   padding-left: 1em;
   padding-right: 1em;
+  text-align: center;
   /* color: #fff; */
 }
 
@@ -1135,12 +1197,16 @@ img.plays {
   font-size: 1em;
   padding-left: 1em;
   padding-right: 1em;
+  text-align: center;
 }
 
 .portfolio > img {
-  max-height: 200px;
-  padding-top: 1em;
+  /* border-right-color: #c37d4f;
+  border-right-width: 2px;
+  border-top-color: #c37d4f;
+  border-top-width: 2px; */
 }
+
 
 .about {
   padding-left: 1em;
@@ -1179,10 +1245,11 @@ img.plays {
   padding-right: 1em;
   padding-top: 1.5em;
   padding-bottom: 1.5em;
-  margin:.5em;
-  border-radius: 3px;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .10);
+  /* margin:.5em; */
+  /* border-radius: 3px; */
+  /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .10); */
   text-align: center;
+
 }
 
 .card > img {
@@ -1450,7 +1517,18 @@ img.header {
   padding-top: 10rem;
 }
 
+.pt-15 {
+  padding-top: 15rem;
+}
 
+.pt-17 {
+  padding-top: 17rem;
+}
+
+
+.vh-50 {
+  height: 50vh;
+}
 
 .fill-current {
   fill: currentColor;
@@ -1594,24 +1672,26 @@ img.header {
       font-size: 2em;
       font-weight: 700;
     }
+
     
     h3.small {
-      font-size: 1.5em;
-      font-weight: 700;
-      background-color: #384452;
-      color: white;
+      font-size: 1em;
+      font-weight: 400;
+      background-color: #823303;
+      color: #fff;
+      padding-left: 9px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      border-style: solid;
+      border-radius: 2px;
     }
     
     h3 {
       font-size: 1em;
-      font-weight: 700;
+      font-weight: 400;
   }
   
-    
   }
-
-
-
 
 @media (min-width: 576px) {
   .sm\:w-1\/1 {
@@ -1663,7 +1743,7 @@ img.header {
 
   h3.small {
     font-size: 1em;
-    font-weight: 700;
+    font-weight: 400;
   }
   
   h3 {

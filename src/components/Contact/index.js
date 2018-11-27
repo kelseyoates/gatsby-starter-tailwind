@@ -34,8 +34,8 @@ export default class ContactForm extends React.Component {
 
 <div>
   <div className="flex flex-col px-1 pt-5 bg-light-pink"> 
-    <h2 className="text-center">Let's talk!</h2>
-    <p className="leading-loose text-center">The best way to get a hold of me is by filling out the contact form below 👇</p>
+    <h2 className="text-center">Let's talk.</h2>
+    <p className="leading-loose text-center">The best way to get a hold of me is by filling out the contact form below.</p>
   </div>
   
   <div className="flex flex-col md:flex-row px-1 pt-5 bg-light-pink"> 
@@ -92,7 +92,7 @@ export default class ContactForm extends React.Component {
       </p>
       <p>
         <button 
-        className="border-b-4 border-grey-darker hover:border-grey-dark bg-grey-dark hover:bg-grey font-bold px-6 py-3 rounded text-sm text-white"
+        className="bg-primary hover:bg-light-gold font-bold my-3 px-6 py-3 rounded text-sm text-white"
         type="submit">Send</button>
       </p>
     </form>

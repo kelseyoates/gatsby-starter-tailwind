@@ -21,9 +21,10 @@ const AboutPage = () => (
     </p>
 </div>
 
+
 <div className="pt-5 flex flex-wrap">
-  <div className="sm:w-1/2 md:w-1/2 lg:w-1/4">
-    <div className="card bg-primary text-white">
+  <div className="sm:w-1/2 md:w-1/2 xlg:w-1/4">
+    <div className="card bg-primary">
     <img src={dog}/>
   <h3>Dogs</h3>
   <p className="text-left">
@@ -32,8 +33,8 @@ const AboutPage = () => (
     </div>
   </div>
 
-  <div className="sm:w-1/2 md:w-1/2 lg:w-1/4">
-    <div className="card bg-primary text-white">
+  <div className="sm:w-1/2 md:w-1/2 xlg:w-1/4">
+    <div className="card">
     <img src={music}/>
   <h3>Musical Theater</h3>
   <p className="text-left">
@@ -42,8 +43,8 @@ const AboutPage = () => (
     </div>
   </div>
 
-  <div className="sm:w-1/2 md:w-1/2 lg:w-1/4">
-    <div className="card bg-primary text-white">
+  <div className="sm:w-1/2 md:w-1/2 xlg:w-1/4">
+    <div className="card">
     <img src={bicycle} />
   <h3>SoulCycle</h3>
   <p className="text-left">
@@ -52,8 +53,8 @@ const AboutPage = () => (
     </div>
   </div>
 
-  <div className="sm:w-1/2 md:w-1/2 lg:w-1/4">
-    <div className="card bg-primary text-white">
+  <div className="sm:w-1/2 md:w-1/2 xlg:w-1/4">
+    <div className="card bg-primary">
     <img src={tennis} />
   <h3>Tennis</h3>
   <p className="text-left">

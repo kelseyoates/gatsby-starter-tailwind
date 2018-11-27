@@ -9,7 +9,7 @@ const DesignPage = () => (
    <div className="flex flex-col px-1 pt-10"> 
     <h2 className="text-center">UX Design</h2>
     <p className="leading-loose text-center">
-    Here are some case studies and outward links. 
+    I specialize in Information Architecture and UX Writing.
     </p>
 </div>
 
