@@ -1,5 +1,3 @@
-const path = require(`path`)
-
 module.exports = {
   siteMetadata: {
     title: 'Kelsey Oates | UX Designer and Writer',
@@ -7,7 +5,7 @@ module.exports = {
   plugins: 
   [
     'gatsby-plugin-react-helmet',
-    
+
     {
       resolve: `gatsby-plugin-hotjar`,
       options: {
