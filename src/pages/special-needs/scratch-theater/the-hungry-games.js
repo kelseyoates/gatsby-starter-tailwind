@@ -5,7 +5,7 @@ const HungryPage = () => (
   <div>
 
 
-<div className="pt-5 flex flex-wrap bg-6 items-center text-center">
+<div className="pt-5 flex flex-wrap bg-scratch items-center text-center">
 
 
 

@@ -22,7 +22,7 @@ const IndexPage = () => (
       <h2 className="light-gold">Design | Communications | Tech Help</h2>
     </div>
   </div>
-  {/* <img src={devices} className="block mx-auto w-1 bg-light-pink" /> */}
+ 
 
 
   <h2 className="text-center my-9">Selected Work</h2>
