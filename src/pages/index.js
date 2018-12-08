@@ -7,12 +7,8 @@ import twoLanternsImage from "../images/hunters-race-408744-unsplash.jpg";
 import sslcImage from "../images/lucas-vasques-453684-unsplash.jpg";
 import sarahImage from "../images/sarahImage.jpg";
 import scratchImage from "../images/scratchTheaterActors.jpg";
-import Design from "../components/Design/index.js";
-import Seniors from "../components/Seniors/index.js";
-import Communications from "../components/Communications/index.js";
-import SpecialNeeds from "../components/Special-Needs/index.js";
 import ContactForm from "../components/Contact/index.js";
-import GatsbyLink from "gatsby-link";
+
 
 const IndexPage = () => (
 <div>
@@ -23,6 +19,7 @@ const IndexPage = () => (
     </div>
   </div>
  
+
 
 
   <h2 className="text-center my-9">Selected Work</h2>
