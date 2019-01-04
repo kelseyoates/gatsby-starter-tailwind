@@ -31,7 +31,7 @@ const IndexPage = () => (
   <img src={homeeImage} />
     <h3>Homee + Insurance</h3>
     <p>UX Case Study: UX Design | UX Writing</p>
-    <p><Link to="/homee" className="py-3 no-underline">
+    <p><Link to="/ux/homee" className="py-3 no-underline">
    <button>Learn More</button>
     </Link></p>
   </div>
@@ -81,7 +81,7 @@ const IndexPage = () => (
   <img src={sarahImage} />
     <h3>Sarah Sun and The Contest</h3>
     <p>Book: Writing | Special Needs</p>
-    <p><Link to="/sarah-sun-and-the-contest" className="py-3 no-underline">
+    <p><Link to="/special-needs/sarah-sun-and-the-contest" className="py-3 no-underline">
    <button>Read</button>
     </Link></p>
   </div>
@@ -93,7 +93,7 @@ const IndexPage = () => (
   <img src={scratchImage}/>
     <h3>Scratch Theater</h3>
     <p>Plays + Workshops: Writing | Special Needs</p>
-    <p><Link to="/scratch-theater" className="py-3 no-underline">
+    <p><Link to="/special-needs/scratch-theater" className="py-3 no-underline">
    <button>Learn More</button>
     </Link></p>
   </div>
