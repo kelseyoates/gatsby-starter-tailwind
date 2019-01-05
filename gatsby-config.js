@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Kelsey Oates | UX Designer and Writer',
+    title: 'Kelsey Oates | Websites, Design, Seniors',
   },
   plugins: 
   [
