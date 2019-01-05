@@ -4,6 +4,7 @@ import dog from "../images/dog.png";
 import tennis from "../images/tennis.png";
 import bicycle from "../images/bicycle.png";
 import music from "../images/music.png";
+import music from "../images/music.png";
 
 
 const AboutPage = () => (
@@ -17,7 +18,7 @@ const AboutPage = () => (
           href="https://www.linkedin.com/in/kelsey-oates"
           className="font-bold no-underline"
         > LinkedIn
-        </a> or <a href="../assets/KelseyOates_Resume.pdf" download> download my resume</a>.
+        </a> or <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/459919/KelseyOates_Resume.pdf" download> download my resume</a>.
     </p>
     
 </div>
