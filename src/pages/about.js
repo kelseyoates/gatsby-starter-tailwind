@@ -17,7 +17,7 @@ const AboutPage = () => (
           href="https://www.linkedin.com/in/kelsey-oates"
           className="font-bold no-underline"
         > LinkedIn
-        </a> or <a href="../assets/KelseyOates_resume.pdf" download> download my resume</a>.
+        </a> or <a href="../assets/KelseyOates_Resume.pdf" download> download my resume</a>.
     </p>
     
 </div>
