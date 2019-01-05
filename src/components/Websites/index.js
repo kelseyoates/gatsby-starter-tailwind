@@ -7,25 +7,25 @@ import twoLanternsImage from "../../images/hunters-race-408744-unsplash.jpg";
 import sslcImage from "../../images/lucas-vasques-453684-unsplash.jpg";
 import jtptImage from "../../images/chris-benson-609702-unsplash.jpg";
 import livingstoneImage from "../../images/fancycrave-219666-unsplash.jpg";
-const Communications = () => (
+const Websites = () => (
 
-<div className = "flex flex-wrap">
+<div className = "flex flex-wrap ">
 
 
-<div className="xsm:w-1/1 sm:w-1/2">
+<div className="xsm:w-1/1 sm:w-1/2 md:w-1/3 mx-auto">
   <div className= "portfolio">
   <img src={twoLanternsImage}/>
     <h3>Two Lanterns</h3>
-    <p>Website: Design | UX Writing | Copyediting</p>
+    <p>Website: Design | Code | Copywriting</p>
       <p><a href="http://www.twolanterns.co" target="blank" className="no-underline py-3 "><button>Visit ↗</button></a></p>
   </div>
 </div>
 
-<div className="xsm:w-1/1 sm:w-1/2">
+<div className="xsm:w-1/1 sm:w-1/2 md:w-1/3 mx-auto">
 <div className=" portfolio">
   <img src={sslcImage} />
     <h3>South Shore Laboratory Consultants</h3>
-    <p>Website: Design | UX Writing | Copyediting</p>
+    <p>Website: Design | Code | Copywriting</p>
 
     <p><a href="https://www.sslabconsultants.com" target="blank" className="no-underline py-3 "><button>Visit ↗</button></a></p>
   </div>
@@ -33,29 +33,29 @@ const Communications = () => (
   </div>
 
 
-<div className="xsm:w-1/1 sm:w-1/2">
+<div className="xsm:w-1/1 sm:w-1/2 md:w-1/3 mx-auto">
 <div className=" portfolio">
   <img src={jtptImage} />
     <h3>Jay Thebado Personal Training</h3>
-    <p>Website: Design | UX Writing | Copyediting</p>
+    <p>Website: Design | Code | Copywriting</p>
 
     <p><a href="https://www.jtpt.fitness" target="blank" className="no-underline py-3 "><button>Visit ↗</button></a></p>
   </div>
 
   </div>
 
-  <div className="xsm:w-1/1 sm:w-1/2">
+<div className="xsm:w-1/1 sm:w-1/2 md:w-1/3 mx-auto">
 <div className=" portfolio">
   <img src={livingstoneImage} />
     <h3>The Livingstone Company</h3>
-    <p>Website: Design | UX Writing | Copyediting</p>
+    <p>Website: Design | Code | Copyediting</p>
 
     <p><a href="https://www.livingstonecompany.com" target="blank" className="no-underline py-3 "><button>Visit ↗</button></a></p>
   </div>
 
   </div>
 
-<div className="xsm:w-1/1 sm:w-1/2">
+{/* <div className="xsm:w-1/1 sm:w-1/2 md:w-1/4">
 <div className=" portfolio">
 <img src={plankImage} />
       <h3>Plank for Autism</h3>
@@ -67,7 +67,7 @@ const Communications = () => (
 
   </div>
 
-<div className="xsm:w-1/1 sm:w-1/2">
+<div className="xsm:w-1/1 sm:w-1/2 md:w-1/4">
 <div className=" portfolio">
 <img src={hidingImage} />
       <h3>Hiding in Plain Sight</h3>
@@ -76,8 +76,7 @@ const Communications = () => (
     <button>Learn More</button>
     </Link></p>
   </div>
-
-  </div>
+  </div> */}
 
 
 </div>
@@ -85,4 +84,4 @@ const Communications = () => (
   
 );
 
-export default Communications;
+export default Websites;

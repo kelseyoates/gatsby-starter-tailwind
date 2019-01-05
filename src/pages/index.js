@@ -9,61 +9,47 @@ import sarahImage from "../images/sarahImage.jpg";
 import scratchImage from "../images/scratchTheaterActors.jpg";
 import ContactForm from "../components/Contact/index.js";
 
+import Websites from "../components/Websites/index.js";
+import Design from "../components/Design/index.js";
+import Seniors from "../components/Seniors/index.js";
+
 
 const IndexPage = () => (
 <div>
-  <div className="flex flex-wrap px-1 pt-17 bg-index"> 
-    <div className="mx-auto">
-      <h1 className="gold">Kelsey Oates</h1>
-      <h2 className="light-gold">Design | Communications | Tech Help</h2>
+  <div className="flex flex-wrap px-1 pt-a"> 
+    <div className="mx-auto md:w-2/3 sm:w-1/1 xsm:w-1/1">
+      <h1>Hi, I'm Kelsey Oates.</h1>
+      <h2>I make websites, design things, and work one-on-one with seniors.</h2>
+      <h2>I also like to use emoji as punctuation 🔥</h2>
+      <h2>Check out my work and if you like what you see, 
+ 
+      <Link to="/contact" className="no-underline font-bold"> send me a message</Link> and we can get started on your project today.</h2>
+      
     </div>
   </div>
  
 
+  {/* <h2 className="text-center my-9">Selected Work</h2>
+  <hr className="text-left"/> */}
 
-
-  <h2 className="text-center my-9">Selected Work</h2>
+  <h3 className="text-center pt-a">Websites</h3>
   <hr className="text-left"/>
 
-<div className = "flex flex-wrap">
-<div className="xsm:w-1/1 sm:w-1/2 ">
-  <div className="portfolio">
-  <img src={homeeImage} />
-    <h3>Homee + Insurance</h3>
-    <p>UX Case Study: UX Design | UX Writing</p>
-    <p><Link to="/ux/homee" className="py-3 no-underline">
-   <button>Learn More</button>
-    </Link></p>
-  </div>
-</div>
+<Websites />
 
-<div className="xsm:w-1/1 sm:w-1/2 ">
-  <div className= "portfolio">
-  <img src={twoLanternsImage}/>
-    <h3>Two Lanterns</h3>
-    <p>Website: Design | UX Writing | Copyediting</p>
-      <p><a href="http://www.twolanterns.co" target="blank" className="no-underline py-3 "><button>Visit ↗</button></a></p>
-  </div>
-</div>
+<h3 className="text-center pt-a">UX Design</h3>
+  <hr className="text-left"/>
 
-</div>
+<Design />
+
+<h3 className="text-center pt-a">Tech Help for Seniors</h3>
+  <hr className="text-left"/>
+
 
 <div className = "flex flex-wrap">
-<div className="xsm:w-1/1 sm:w-1/2 ">
 
 
-  <div className=" portfolio">
-  <img src={sslcImage} />
-    <h3>South Shore Laboratory Consultants</h3>
-    <p>Website: Design | UX Writing | Copyediting</p>
-    <p><a href="https://www.sslabconsultants.com" target="blank" className="no-underline py-3 "><button>Visit ↗</button></a></p>
-  </div>
-
-
-</div>
-
-
-<div className="xsm:w-1/1 sm:w-1/2 ">
+<div className="xsm:w-1/1 sm:w-2/3 md:w-1/2 mx-auto">
   <div className=" portfolio ">
   <img src={seniorImage}/>
     <h3>Tech Help for Seniors</h3>
@@ -75,34 +61,9 @@ const IndexPage = () => (
 </div>
 </div>
 
-<div className = "flex flex-wrap">
-<div className="xsm:w-1/1 sm:w-1/2 ">
-  <div className=" portfolio">
-  <img src={sarahImage} />
-    <h3>Sarah Sun and The Contest</h3>
-    <p>Book: Writing | Special Needs</p>
-    <p><Link to="/special-needs/sarah-sun-and-the-contest" className="py-3 no-underline">
-   <button>Read</button>
-    </Link></p>
-  </div>
-</div>
-
-
-<div className="xsm:w-1/1 sm:w-1/2 ">
-  <div className=" portfolio">
-  <img src={scratchImage}/>
-    <h3>Scratch Theater</h3>
-    <p>Plays + Workshops: Writing | Special Needs</p>
-    <p><Link to="/special-needs/scratch-theater" className="py-3 no-underline">
-   <button>Learn More</button>
-    </Link></p>
-  </div>
-</div>
-
-</div>
-<hr />
+<div className="pt-a">
   <ContactForm />
-
+  </div>
 </div>
 
 

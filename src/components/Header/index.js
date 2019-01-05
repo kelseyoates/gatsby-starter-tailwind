@@ -39,18 +39,20 @@ const Header = () => {
           className="hidden md:flex md:items-center w-full md:w-auto"
         >
           <div className="text-sm">
-            <Link
-              to="/"
-              className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline "
-            >
-              Home
-            </Link>
+       
 
             <Link
               to="/about"
               className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline "
             >
               About
+            </Link>
+
+            <Link
+              to="/websites"
+              className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline "
+            >
+              Websites
             </Link>
 
              <Link
@@ -66,12 +68,7 @@ const Header = () => {
             >
               UX Design
             </Link>
-            <Link
-              to="/communications"
-              className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline "
-            >
-              Communications
-            </Link>
+
 
 
             <Link

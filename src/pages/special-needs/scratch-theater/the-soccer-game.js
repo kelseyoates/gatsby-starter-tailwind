@@ -5,7 +5,7 @@ const TheSoccerGamePage = () => (
   <div>
 
 
-<div className="pt-5 flex flex-wrap bg-scratch items-center text-center">
+<div className="pt-5 flex flex-wrap bg-primary items-center text-center">
 
   <div className="sm:w-1/1 md:w-1/1">
     <h1 className="text-white">

@@ -93,7 +93,7 @@ nav {
 a {
   background-color: transparent; /* 1 */
   -webkit-text-decoration-skip: objects; /* 2 */
-  color: #c37d4f;
+  color: #9694bb;
 }
 
 /**
@@ -372,13 +372,13 @@ h1 {
   font-size: 3em;
   font-family: "objektiv-mk1",sans-serif;
   font-style: normal;
-  color: #823303;
+  color: #8785a8;
   font-weight: 700;
 }
 
 h2 {
-  font-size: 2.5em;
-  color: #823303;
+  font-size: 1.5em;
+  color:#9694bb;
   font-family: "objektiv-mk1",sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -388,12 +388,15 @@ h2 {
 h3 {
   font-family: "objektiv-mk1",sans-serif;
   font-style: normal;
-  color: #823303;
+  color: #8785a8;
+  font-size: 2em;
+  
+ 
 }
 
 h4 {
   font-size: 1.2em;
-  color: #c37d4f;
+  color: #8785a8;
   font-family: "objektiv-mk1",sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -439,31 +442,31 @@ p {
 }
 
 .light-gold {
-  color: #c37d4f;
+  color: #8785a8;
 }
 
 .inverse {
     color: #f1f5f8;
-    background-color: #c37d4f;
+    background-color: #8785a8;
     border-style: solid;
     border-radius: 25px;
     padding: .8em;
 }
 
 .footer {
-  color: #c37d4f;
+  color: #8785a8;
   font-weight: 300;
 }
 
 .footer > a {
-  color: #c37d4f;
+  color: #8785a8;
   font-weight: 400;
   text-decoration: none;
 }
 
 
 button {
-  background-color: #c37d4f;
+  background-color: #8785a8;
   color: #fff;
   font-size: .875rem;
   font-family: "objektiv-mk1",sans-serif;
@@ -473,6 +476,7 @@ button {
   border-style: solid;
   border-color: inherit;
   border-radius: 2px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
 }
 
 /**
@@ -869,6 +873,12 @@ border-bottom: 2px inset #20A0BC;
   * @import "tailwindcss/utilities";
   */
 
+
+
+
+
+
+
 .appearance-none {
   appearance: none;
 }
@@ -908,7 +918,8 @@ border-bottom: 2px inset #20A0BC;
 
 
 .bg-primary {
-  background-color: #c37d4f;
+  background-color: #8785a8;
+  color: #fff;
 }
 .bg-scratch {
   background-color: #823303;
@@ -916,11 +927,13 @@ border-bottom: 2px inset #20A0BC;
 
 
 .bg-index {
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/459919/plush-design-studio-1129976-unsplash.jpg");
+  /* background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/459919/plush-design-studio-1129976-unsplash.jpg");
   background-position: bottom center;
     background-size: cover;
     background-repeat: repeat;
-    height: 100vh;
+    height: 100vh; */
+
+  background-color: #fff;
 }
 
 
@@ -1144,7 +1157,7 @@ strong {
 
 
 hr {
-  border-top: 2px solid #823303;
+  border-top: 2px solid #cac9dd;
   width: 300px;
   margin-bottom: 3em;
 
@@ -1176,16 +1189,20 @@ img.plays {
 
 
 .portfolio {
-  border-right-color: #c37d4f;
+  /* border-right-color: #fff;
   border-right-width: 2px;
-  border-top-color: #c37d4f;
-  border-top-width: 2px;
+  border-top-color: #fff;
+  border-top-width: 2px; */
+  margin: .5em;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .10);
 }
 
 
 .portfolio > h3 {
   font-weight: 700;
-  font-size: 1.2em;
+  font-size: 1em;
   padding-left: 1em;
   padding-right: 1em;
   text-align: center;
@@ -1194,7 +1211,7 @@ img.plays {
 
 .portfolio > p {
   font-weight: 300;
-  font-size: 1em;
+  font-size: .9em;
   padding-left: 1em;
   padding-right: 1em;
   text-align: center;
@@ -1285,13 +1302,15 @@ img.plays {
   border-style: solid;
   border-width: 1px;
   border-color: #f1f1f1;
+  background-color: #fff;
+  text-align: center;
 }
 
 
 .plays > h3 {
   font-weight: 700;
   font-size: 1.2em;
-  /* color: #fff; */
+  text-align: center;
 }
 
 .plays > p {
@@ -1508,6 +1527,11 @@ img.header {
   padding-left: 5rem;
 }
 
+.pt-a {
+  padding-top:5em;
+}
+
+
 .pt-5 {
   padding-top: 5rem;
 }
@@ -1677,7 +1701,7 @@ img.header {
     h3.small {
       font-size: 1em;
       font-weight: 400;
-      background-color: #823303;
+      background-color: #8785a8;
       color: #fff;
       padding-left: 9px;
       padding-top: 3px;
@@ -1686,10 +1710,10 @@ img.header {
       border-radius: 2px;
     }
     
-    h3 {
+    /* h3 {
       font-size: 1em;
       font-weight: 400;
-  }
+  } */
   
   }
 
@@ -1738,7 +1762,6 @@ img.header {
     font-style: normal;
     font-weight: 700;
     font-style: normal;
-    color: #000;
   }
 
   h3.small {
@@ -1746,10 +1769,10 @@ img.header {
     font-weight: 400;
   }
   
-  h3 {
+  /* h3 {
       font-size: 1em;
       font-weight: 700;
-  }
+  } */
   
   .px-1 {
     padding-left: 2rem;

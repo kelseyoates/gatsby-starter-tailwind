@@ -9,16 +9,17 @@ import music from "../images/music.png";
 const AboutPage = () => (
   <div>
 
-   <div className="flex flex-col px-1 pt-10"> 
-    <h2 className="text-center">About Me</h2>
-    <p className="leading-loose text-center">
+   <div className="flex flex-col px-1 pt-a mx-auto sm:w-1/1 md:w-2/3"> 
+    <h3 className="text-center">About Me</h3>
+    <p className="leading-loose">
     Here's some info beyond my resume. If you'd like to know more about my work history and education, connect with me on  
       <a
           href="https://www.linkedin.com/in/kelsey-oates"
           className="font-bold no-underline"
         > LinkedIn
-        </a>.
+        </a> or <a href="../assets/KelseyOates_resume.pdf" download> download my resume</a>.
     </p>
+    
 </div>
 
 
@@ -26,7 +27,7 @@ const AboutPage = () => (
   <div className="sm:w-1/2 md:w-1/2 xlg:w-1/4">
     <div className="card bg-primary">
     <img src={dog}/>
-  <h3>Dogs</h3>
+  <h3 className="text-white">Dogs</h3>
   <p className="text-left">
   I have a goldendoodle, Molly, and a cockapoo, Pepper. Molly is a model/athlete who can countersurf with the best of them. Pepper is a lovable 12-pound goofball who enjoys sunbathing and following me into the bathroom. They like each other okay.</p>
 
@@ -56,7 +57,7 @@ const AboutPage = () => (
   <div className="sm:w-1/2 md:w-1/2 xlg:w-1/4">
     <div className="card bg-primary">
     <img src={tennis} />
-  <h3>Tennis</h3>
+  <h3 className="text-white">Tennis</h3>
   <p className="text-left">
   I've been playing tennis since I was in the fifth grade and played first singles for my high school team. I taught for many summers and was even a certified pro for a bit. My playing style is built on scrappiness and speed. I will forever be working on my serve.</p>
 

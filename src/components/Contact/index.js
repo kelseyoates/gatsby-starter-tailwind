@@ -33,8 +33,9 @@ export default class ContactForm extends React.Component {
     return (
 
 <div>
-  <div className="flex flex-col px-1 pt-5 bg-light-pink"> 
-    <h2 className="text-center">Let's talk.</h2>
+  <div className="flex flex-col px-1 pt-a bg-light-pink"> 
+    <h3 className="text-center">Let's talk.</h3>
+    
     <p className="leading-loose text-center">The best way to get a hold of me is by filling out the contact form below.</p>
   </div>
   
